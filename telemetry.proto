@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Telemetry {
+  uint32 seq = 1;
+  uint32 unix_s = 2;
+
+  // optional sensor fields (set only if you have data)
+  float temp_c = 3;
+  float pressure_pa = 4;
+  uint32 air_pm25_env = 5;
+  uint32 air_aqi_pm25_us = 6;
+  float uv_uvi = 7;
+}

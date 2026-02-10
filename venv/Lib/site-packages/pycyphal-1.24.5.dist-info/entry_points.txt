@@ -1,0 +1,2 @@
+[console_scripts]
+cyphal-serial-broker = pycyphal.util._broker:main

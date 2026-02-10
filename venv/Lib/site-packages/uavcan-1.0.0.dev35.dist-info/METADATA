@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: uavcan
+Version: 1.0.0.dev35
+Summary: OBSOLETE, use pyuavcan_v0 instead
+Home-page: http://uavcan.org
+Author: Pavel Kirienko, Ben Dyer
+Author-email: maintainers@uavcan.org
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Legacy UAVCAN/CAN v0 in Python
+==============================
+
+***THIS PACKAGE HAS BEEN REPUBLISHED UNDER A DIFFERENT NAME: `pyuavcan_v0`***
+
+**Please update your references to use [`pyuavcan_v0`](https://pypi.org/project/pyuavcan-v0/) -- a drop-in replacement.**
+
+Find context at <https://github.com/UAVCAN/pyuavcan/issues/166>.
+
+Ask questions at [forum.uavcan.org](https://forum.uavcan.org).
+
+

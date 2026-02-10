@@ -15,19 +15,18 @@ sys.path.insert(0, dsdl_out_path)
 from leos.sensors import UVLight_0_1, Temp_0_1, Pressure_0_1, AirQuality_0_1
 from leos.service import Cutdown_0_1
 
-# ---- Your packet builder (EFM removed) ----
 from packet import build_from_latest
+
 
 
 # ---- LoRa driver stub (replace with your real sx1262 import/init) ----
 class LoRaRadio:
-    def __init__(self) -> None:
-        # TODO: init your sx1262 here (SPI pins, freq, bw, sf, etc.)
-        pass
+    def __init__(self):
+        self.sx = SX1262(...)   # SPI pins, freq, etc.
 
-    def send(self, payload: bytes) -> None:
-        # TODO: replace with your driver call, e.g. sx.send(payload)
-        print(f"[LoRa] sending {len(payload)} bytes: {payload.hex()}")
+    def send(self, payload: bytes):
+        self.sx.send(payload)
+
 
 
 class Latest:
@@ -97,14 +96,11 @@ async def radio_publish_loop(
 
 
 async def main():
-    # --- CAN transport ---
     media = SocketCANMedia("can0", mtu=64)
     transport = CANTransport(media=media, local_node_id=42)
 
-    # --- Node ---
     node = make_node(info=NodeInfo(name="my_pi_node"), transport=transport)
 
-    # --- Subs ---
     subTemp = node.make_subscriber(Temp_0_1)
     subAir = node.make_subscriber(AirQuality_0_1)
     subPressure = node.make_subscriber(Pressure_0_1)
@@ -116,12 +112,28 @@ async def main():
     latest = Latest()
     radio = LoRaRadio()
 
-    # Run subscriber tasks + periodic radio publisher concurrently
     await asyncio.gather(
         subscribe_loop(subTemp, subPressure, subAir, subUV, latest),
-        radio_publish_loop(radio, latest, period_s=1.0),  # change rate here
+        radio_publish_loop(radio, latest, period_s=1.0),
     )
 
+'''
+async def main():
+    radio = LoRaRadio()
+    seq = 0
+    while True:
+        seq = (seq + 1) & 0xFFFF
+        frame = build_from_latest(
+            seq=seq,
+            temp_c=25.0,
+            pressure_pa=101325.0,
+            air_pm25_env=12,
+            air_aqi_pm25_us=18,
+            uv_uvi=3.4,
+        )
+        radio.send(frame)
+        await asyncio.sleep(1.0)
+'''
 
 if __name__ == "__main__":
     try:
