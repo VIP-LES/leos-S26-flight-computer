@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-message Telemetry {
+message Telemetry {`
   uint32 seq = 1;
   uint32 unix_s = 2;
 
