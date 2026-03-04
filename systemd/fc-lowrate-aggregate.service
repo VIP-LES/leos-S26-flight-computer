@@ -1,0 +1,17 @@
+[Unit]
+Description=LEOS Flight Computer - Low-rate telemetry aggregator
+After=network.target fc-time-master.service
+Requires=fc-time-master.service
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/opt/leos-S26-flight-computer
+RuntimeDirectory=leos
+RuntimeDirectoryMode=0755
+ExecStart=/usr/bin/python3 -m fc.services.lowrate_aggregate
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
