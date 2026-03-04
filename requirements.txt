@@ -1,5 +1,3 @@
 gpsd-py3
-paho-mqtt
 pycyphal
-protobuf
 #install with pip install -r requirements.txt
