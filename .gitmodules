@@ -1,6 +1,8 @@
 [submodule "external/leos_cyphal_types"]
 	path = external/leos_cyphal_types
 	url = https://github.com/VIP-LES/leos-cyphal-types.git
+	branch = master
 [submodule "external/public_regulated_data_types"]
 	path = external/public_regulated_data_types
 	url = https://github.com/OpenCyphal/public_regulated_data_types.git
+	branch = master

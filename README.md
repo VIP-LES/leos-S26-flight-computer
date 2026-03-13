@@ -49,21 +49,21 @@ This script:
 
 The script deletes `dsdl_out` before regeneration by default so stale generated files do not survive namespace changes. Use `python3 tools/generate_dsdl.py --no-clean` only if you explicitly want incremental generation.
 
+The runtime service configuration in [`fc/config.py`] reads fixed port IDs from the generated DSDL classes, so subject-ID changes usually do not require service code edits. If the structure of aggregate messages changes, the sensor-to-field mapping in `fc/config.py` still needs to be updated to match the new generated type layout.
+
 ## Updating DSDL source revisions
 
-To move a submodule to a newer upstream commit:
+For normal updates, refresh both submodules to the latest commit on their tracked branch and regenerate:
 
 ```bash
-cd external/leos_cyphal_types
-git fetch
-git checkout <commit-or-tag>
-cd ../public_regulated_data_types
-git fetch
-git checkout <commit-or-tag>
-cd ../..
-python3 tools/generate_dsdl.py
-git add .gitmodules external dsdl_out
+git submodule update --remote --merge
+.my-venv/bin/python tools/generate_dsdl.py
+git add .
 git commit -m "Update DSDL sources"
 ```
 
-Submodules pin exact source revisions, so the flight computer repository records exactly which DSDL definitions were used to generate `dsdl_out`.
+Use `git submodule update --init --recursive` for first-time setup after clone. Use `git submodule update --remote --merge` when you want to pull newer upstream DSDL revisions into this repository.
+
+If you need to pin a specific upstream commit or tag instead of following the tracked branch, check out that revision inside the submodule explicitly, then regenerate and commit the updated submodule pointer.
+
+Submodules pin exact source revisions in this repository, so each commit records exactly which DSDL definitions were used to generate `dsdl_out`.
