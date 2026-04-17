@@ -7,7 +7,7 @@ After=fc-time-master.service fc-lowrate-aggregate.service
 Type=simple
 User=pi
 WorkingDirectory=/opt/leos-S26-flight-computer
-ExecStart=/opt/leos-S26-flight-computer/systemd/startup.sh
+ExecStart=/opt/leos-S26-flight-computer/startup.sh
 Restart=always
 RestartSec=1
 
