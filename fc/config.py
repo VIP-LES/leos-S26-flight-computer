@@ -38,9 +38,7 @@ NODE_ID_TIME_MASTER = 10
 NODE_ID_LOW_AGG     = 11
 NODE_ID_LOGGER      = 12
 
-NODE_NAME_TIME_MASTER = "leos.time_master"
-NODE_NAME_LOW_AGG     = "leos.lowrate_agg"
-NODE_NAME_LOGGER      = "leos.logger"
+NODE_NAME = "flight-computer"
 
 # ── Fixed rates (Hz) ────────────────────────────────────────────────────────
 LOWRATE_AGG_HZ = 1
@@ -73,7 +71,7 @@ SENSOR_PORTS = [
 # ── Logging ─────────────────────────────────────────────────────────────────
 LOG_DIR = os.path.join(_REPO_ROOT, "logs")
 
-# Record-kind tags written into the binary log
+# Record-kind tags written into the SQLite log
 RECORD_KIND_LOW_AGG = 1
 RECORD_KIND_EFM     = 2
 RECORD_KIND_STATUS  = 3
