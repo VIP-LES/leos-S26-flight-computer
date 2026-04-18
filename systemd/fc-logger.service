@@ -1,13 +1,12 @@
 [Unit]
 Description=LEOS Flight Computer - Logger (Cyphal -> SD)
-# Optional: if you want it to wait for aggregate/time master
 After=fc-time-master.service fc-lowrate-aggregate.service
 
 [Service]
 Type=simple
 User=leos-flight-computer
 WorkingDirectory=/home/leos-flight-computer/leos-S26-flight-computer
-ExecStart=/home/leos-flight-computer/leos-S26-flight-computer/systemd/startup.sh
+ExecStart=/home/leos-flight-computer/leos-S26-flight-computer/.venv/bin/python -m fc.services.logger
 Restart=always
 RestartSec=1
 

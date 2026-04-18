@@ -4,11 +4,9 @@ After=network.target
 
 [Service]
 Type=simple
-User=pi
-WorkingDirectory=/opt/leos-S26-flight-computer
-RuntimeDirectory=leos
-RuntimeDirectoryMode=0755
-ExecStart=/usr/bin/python3 -m fc.services.time_master
+User=leos-flight-computer
+WorkingDirectory=/home/leos-flight-computer/leos-S26-flight-computer
+ExecStart=/home/leos-flight-computer/leos-S26-flight-computer/.venv/bin/python -m fc.services.time_master
 Restart=always
 RestartSec=1
 

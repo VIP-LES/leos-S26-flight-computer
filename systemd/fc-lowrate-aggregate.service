@@ -5,11 +5,9 @@ Requires=fc-time-master.service
 
 [Service]
 Type=simple
-User=pi
-WorkingDirectory=/opt/leos-S26-flight-computer
-RuntimeDirectory=leos
-RuntimeDirectoryMode=0755
-ExecStart=/usr/bin/python3 -m fc.services.lowrate_aggregate
+User=leos-flight-computer
+WorkingDirectory=/home/leos-flight-computer/leos-S26-flight-computer
+ExecStart=/home/leos-flight-computer/leos-S26-flight-computer/.venv/bin/python -m fc.services.lowrate_aggregate
 Restart=always
 RestartSec=1
 
