@@ -4,8 +4,9 @@ Low-Rate Sensor Aggregation Service
 Responsibilities
   1. Subscribe to the four low-rate sensor subjects + GPS fix.
   2. Cache the latest message for each (sample-and-hold).
-  3. Every 1 s, build and publish a ``leos.aggregate.LowRate`` message
-     with validity flags reflecting staleness.
+  3. Every 1 s, build and publish a ``leos.aggregate.LowRate`` message.
+  4. Apply freshness gating locally by only copying recently received
+     sensor/GPS messages into the aggregate.
 
 Run as:  python -m fc.services.lowrate_aggregate
 """
@@ -19,7 +20,6 @@ from pycyphal.transport.can.media.socketcan import SocketCANMedia
 
 # fc.__init__ ensures dsdl_out is on sys.path
 import fc  # noqa: F401
-import uavcan.time
 
 from fc.config import (
     CAN_INTERFACE,
@@ -94,25 +94,18 @@ async def run() -> None:
 
             agg = LowRate_0_1()
 
-            # Packet timestamp (UTC microseconds)
-            ts = uavcan.time.SynchronizedTimestamp_1_0()
-            ts.microsecond = int(time.time() * 1_000_000)
-            agg.t_pkt = ts
-
-            # Fill each sensor field + validity flag
+            # Copy fresh sensor samples into the aggregate. If a sample is stale,
+            # the default-constructed nested message remains in place.
             for _port_id, _dsdl_fqn, field_name in SENSOR_PORTS:
                 entry = latest.get(field_name)
                 if entry is not None and (now_ms - entry["rx_ms"]) < STALE_MS:
                     setattr(agg, field_name, entry["msg"])
-                    setattr(agg, f"{field_name}_valid", True)
-                else:
-                    setattr(agg, f"{field_name}_valid", False)
 
-            # GPS fix (no separate *_valid flag — fix_ok is inside the message)
+            # GPS fix uses the same freshness gating pattern. fix_ok remains
+            # owned by the GPS message itself.
             gps_entry = latest.get("gps_data")
             if gps_entry is not None and (now_ms - gps_entry["rx_ms"]) < STALE_MS:
                 agg.gps_data = gps_entry["msg"]
-            # else: gps_data stays at default (fix_ok=False)
 
             await agg_pub.publish(agg)
             await asyncio.sleep(period)

@@ -52,7 +52,7 @@ STALE_MS = 2000
 # ── DSDL type names ─────────────────────────────────────────────────────────
 LOWRATE_DSDL = "leos.aggregate.LowRate_0_1"
 GPS_FIX_DSDL = "leos.gps.Fix_0_1"
-EFM_DSDL = "leos.efm.ADC_0_1"
+EFM_DSDL = "leos.efm.ADC_0_2"
 
 # Aggregate inputs. Keep this aligned with leos.aggregate.LowRate.
 SENSORS = [
