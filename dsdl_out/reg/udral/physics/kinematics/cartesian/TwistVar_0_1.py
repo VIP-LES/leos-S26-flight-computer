@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/physics/kinematics/cartesian/TwistVar.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:42.287523 UTC
+# Generated at:  2026-04-18 00:09:05.391137 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.physics.kinematics.cartesian.TwistVar
@@ -166,7 +166,7 @@ class TwistVar_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8O4HA20{`ur-)|Gy6~`xb;y8{;oIqF?C=8GVClEXQSQ_ZkvJ0ZAE};=DX?CUVFt&%xn6by28K+KFq+O}4LN(G(#Z=<4kG%Gw'
+        'ABzY8q08cF0{`ur-)|Gy6~`xb;y8{;oIqF?C=8GVClEXQSQ_ZkvJ0ZAE};=DX?CUVFt&%xn6by28K+KFq+O}4LN(G(#Z=<4kG%Gw'
         'YFf3G_n{Sis8p#^MW5P7{si9Wx#RD(!_--pO0+AjM~c74b7$^7bH|@^&pq(b;Lra#FNKG9sJ>Bl%4S}1G}};3;|FTd)bdKns@5&X'
         'aJ9hOb<?#QCAVQ~?`_nz;6X6+ad0olc|%G~tx|iz*4FZkvaOo=y1wBUB`1H^sA*Nz<z`8>UClAnTK>K78;-l8+JTo;)-~HPtXiN;'
         '-tY?S2LY4Vz)ymY18-DOUDq~>4Z1b>9*wnwmz}EuZ|JI_ndPo`DW$Bss^W5&^;r9)KIENz6=wr|SRWBi>1lFA&!DH>+xk4zP}fUz'

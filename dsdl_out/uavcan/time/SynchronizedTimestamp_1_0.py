@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/time/SynchronizedTimestamp.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.859490 UTC
+# Generated at:  2026-04-18 00:09:05.024108 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.time.SynchronizedTimestamp
@@ -108,7 +108,7 @@ class SynchronizedTimestamp_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^vE>2B3V6iy%;34|r=&@!|ILgD&CN<yFur65E#B_Ng-A+^@np4=H>d)%3El8aQS{3rs+QZ3<1JOYovBOvt!cm&iZ'
+        'ABzY8q08cF0{^vE>2B3V6iy%;34|r=&@!|ILgD&CN<yFur65E#B_Ng-A+^@np4=H>d)%3El8aQS{3rs+QZ3<1JOYovBOvt!cm&iZ'
         ';AhXV$4Q{@v-xqq<5|x6&N}&h=&zB@1NC2VDC<Wiiap<OEm<rdups81AF3o%Mp|AKTW(pMhc?&zc0c3Q)9U!c>bGjT81_?^!2aQ!'
         'Erl%gtW3CftDlBKt5iPV(QQ~TmL*wLjQLAk8>!Mt3>2e3I{9fu2kF40>S0w(_{>@@gWPgc{S4Yaz-#qXRSaK|JdW1*jQbI@%(qDL'
         'L)SAc6KUlVoS3?k8re&E^nGf1kL$OcoA3i^{g|gcD=In<%0p(XpQwmeVrQ}YMym*~d6!`C8g8LSe^fWCVy6$DrxDZ9dPPt2KnxcX'

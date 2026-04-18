@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/leos_cyphal_types/leos/sensors/1209.TSL2591.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:40.936642 UTC
+# Generated at:  2026-04-18 00:09:03.969953 UTC
 # Is deprecated: no
 # Fixed port ID: 1209
 # Full name:     leos.sensors.TSL2591
@@ -255,7 +255,7 @@ class TSL2591_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY8NYl@00{`t=O>o=R5hnhrAKO$M+e#eANaEOZB2hna967&olDcX)n=*Es(V-~>lCT~e2xI`zr8>=wa%e}+V5XP}I-{eGI_jw2'
+        'ABzY8pUdKD0{`t=O>o=R5hnhrAKO$M+e#eANaEOZB2hna967&olDcX)n=*Es(V-~>lCT~e2xI`zr8>=wa%e}+V5XP}I-{eGI_jw2'
         'bktEt9d&40wVml`Iz6Z-cOOChP(P0UWVeZUcm&_>e!FkqK7b#&6Y?KVcBSgC@N{Lo<d>YB;ai?<I`(hOf@9^3VtK4m_U*um!$Tih'
         'jy*<~rBBBzR{U*z{_FUwI2)>l?Yfp1vs8HKTHsZSLDjRGRTRTD#|YwS$13|d-*Wx3=jT4X_EG=qm-^x`ZQQav-!8ixL;I|8{cQ{>'
         '5Plzj9fxg(83dkPs0NlFe@=jVM7yCChsqV(a!Q*av>GKdFpYr6#k6FSwT36E=B=XX<|-avntjX4(GqNTG-mDWFbI(1{#nQ8F+0|<'

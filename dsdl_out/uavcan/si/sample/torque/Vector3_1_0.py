@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/si/sample/torque/Vector3.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.810638 UTC
+# Generated at:  2026-04-18 00:09:04.905648 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.si.sample.torque.Vector3
@@ -166,7 +166,7 @@ class Vector3_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^{NTW=h<6_#Y(CCirOTWlw$)6|w)?`$Glijp>M92sf~){5a<-J<DaF4U6H%y3F_ByE5I4bU1^F+d0KwD3>JPsmRQ'
+        'ABzY8pv&TE0{^{NTW=h<6_#Y(CCirOTWlw$)6|w)?`$Glijp>M92sf~){5a<-J<DaF4U6H%y3F_ByE5I4bU1^F+d0KwD3>JPsmRQ'
         'P!vhu^4^!AFMZ9Md(I4Jcjd^BjR5U;mY2hi=gR%#=->W+Y^eInFQ(m4hmqrIri2%Xk3BzPjvL50m0B29=11=ul?5hK>|Qrz<&$#h'
         ')AEyYF&}diFNXPxnYR;oiKB(1y*P#4Myfw#%z3~9kgk>aq`SkE7BVUMP(Ja%%1=r<OotwopO*QI>lvejpBbjh4?*_}SoKzw`PhbF'
         'QP^iQ?S`K5T!R$(NIl5M@=KPS5ixV_c9VcBnTU^Bcn=1&0lp=l;8P6~J`1Pw<97SPi+H3;#KMRj;IVK&(V~;E@Rx~U9i|T2XvX!0'

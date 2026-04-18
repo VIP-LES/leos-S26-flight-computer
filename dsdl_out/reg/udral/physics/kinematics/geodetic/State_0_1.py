@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/physics/kinematics/geodetic/State.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:42.310941 UTC
+# Generated at:  2026-04-18 00:09:05.359717 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.physics.kinematics.geodetic.State
@@ -151,7 +151,7 @@ class State_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8O4HA20{`ut(Qn(v9mi$Kl4)CUWXE<~Cv})Kb?n5J(xyw(Ze7zg%QCP@-8${EZUsq6XOjv=swCyu0g5uiI-~=EawrP~*z<t?'
+        'ABzY8q08cF0{`ut(Qn(v9mi$Kl4)CUWXE<~Cv})Kb?n5J(xyw(Ze7zg%QCP@-8${EZUsq6XOjv=swCyu0g5uiI-~=EawrP~*z<t?'
         '34PSw`X_Y29*R8`8?c8B!-8T!cSn9tk{LTq3baj728e$rkv#H_`h4%p`;qhpKm6jAO!Ut`)Y_^$b)zgh#MV_qzphpdQkH90vt>ED'
         'OG1Cos%y7vZrdi8w^}6pAY8l=z8x<3dD&E(bomLJte4w$TQ$lpZOhSXPWh^ClBVji;ySVFgqF&yuF7f?<PBmwx@Cr1#vghe<qtwB'
         'BMtm6yb=1Nvg*3FUTwR?3E!mq+2shkYlVLPyiSaI@5n~vy6UR3%MMq|#$RfA|M<Nf=!)gg&4#pLen?u89)?yzJ^T7<JaMlz>ZW_Q'

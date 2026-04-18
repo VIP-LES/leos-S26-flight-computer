@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/file/Path.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.918977 UTC
+# Generated at:  2026-04-18 00:09:04.964492 UTC
 # Is deprecated: yes
 # Fixed port ID: None
 # Full name:     uavcan.file.Path
@@ -157,7 +157,7 @@ class Path_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^vEZEqYk5WXmBd%4n<5}*<<s)+zyq-Kv6s0yD5X#?n*G~}f!MaA;&&Yewm?Zx&cIiyPM2dW}jqEeUt#?N79_b%78'
+        'ABzY8pv&TE0{^vEZEqYk5WXmBd%4n<5}*<<s)+zyq-Kv6s0yD5X#?n*G~}f!MaA;&&Yewm?Zx&cIiyPM2dW}jqEeUt#?N79_b%78'
         'jrhcUxZNFlo|$>(#eOvR_doNk`WG%2qtvBY#2r{AGWENNGl+O%^1?Xfp$g}=y)6@8TG$yCP(81f9#;>mZaBrY$Z`G6QtT%}M+1e5'
         'o5IT~wD~?*r;M&-E1bDIet%x|XZo!t)#ECh<-&Wb;?jew9w68WZXE5Z!l^X{Svob};i>R~d-5r~e}cNTVpN4ocLhpOavSu}%N3Fy'
         'kL4VP406zZjCX=Ng;lxoY9Dtj>}scm8qy!MhauSGcxQR6JkM%#RlkkSCc=51n-nVfUU+wN0z_)jDz2^55;D~KquQ#%+uV7fQ(@B='

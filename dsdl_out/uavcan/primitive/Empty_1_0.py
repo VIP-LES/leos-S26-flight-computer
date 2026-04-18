@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/primitive/Empty.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.979021 UTC
+# Generated at:  2026-04-18 00:09:05.031909 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.primitive.Empty
@@ -81,7 +81,7 @@ class Empty_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^wtTW`}a7zW@1JD&$^oMD^`Yzc!g7-u24DvXH%cgS)QueEUE$abn0G>Kh+gk%Y%ng5HEyc`7Ll3wJoYxk4Cw^lw3'
+        'ABzY8q08cF0{^wtTW`}a7zW@1JD&$^oMD^`Yzc!g7-u24DvXH%cgS)QueEUE$abn0G>Kh+gk%Y%ng5HEyc`7Ll3wJoYxk4Cw^lw3'
         'eA^yuR3CdP?<YDD0ntoxD)>7Z2^Nr8rn%JIFlQ$>jVfYODE6|SGq>w5?YM2%w1Xt0sb8NjXg8)=kSm^Y!@DealIEuG><H;HrMb*p'
         'r(uU*W4!BHds>Z8ZpYbiLXA;8Dh$)^jk5=So0F(t*WWJpB`jAgriLZ%vz;PayvGufOJxX8+`645S{5p1enBvjQ`2#FszmT8AVS7e'
         'I6J!G8|rP8i@VOg4`2C?b*NdCQnj+S8a`(Ft&w>snAFu{Y4h6Z(w5-uj#(=6@W)ai>-lF!MVJ?n;4x9GU5N5vB%y{9<0H~xok;jI'

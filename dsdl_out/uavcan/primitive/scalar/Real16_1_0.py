@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/primitive/scalar/Real16.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.987943 UTC
+# Generated at:  2026-04-18 00:09:05.040705 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.primitive.scalar.Real16
@@ -115,7 +115,7 @@ class Real16_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^vCT~8D-6kXyjASgm0`lkDY7~L5lgs6{x;KKrLKz%W!X=m>4G<K$wwzJtaA(0q~BuzA-{xbi7|3q(R78Wr)IuA3q'
+        'ABzY8q08cF0{^vCT~8D-6kXyjASgm0`lkDY7~L5lgs6{x;KKrLKz%W!X=m>4G<K$wwzJtaA(0q~BuzA-{xbi7|3q(R78Wr)IuA3q'
         'x$T*I&ONuE>OX$gYvp6_<-=IVA|M(Rr-FZ^Oh7;)ndVY+1J2&uH>!wCq2SFh2Y2co9JxccVjCo*Ddz7Mv>(wd$Q4hy;e7~nL<LpB'
         '9#FBi>FhM=gVJ1PE~(k6ccb{!wI|xOV|V22ETP6I&I$wC9k{D%I^X1MV~c}`$F<Cmm>NoqFYv14=k+;zeM?Ac{-!fa7&k;f)-#D~'
         '&m&|+wIQjD!6i%fcIWK4KNdX4+>TEnjoKHt=j;;EhGsEU@kOAoh?CM@#!V6XA9odv4AR#q%ho7HjGbS<+Y`qKQ?R6A8+|GY++8QJ'

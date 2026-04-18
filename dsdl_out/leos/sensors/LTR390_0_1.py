@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/leos_cyphal_types/leos/sensors/1210.LTR390.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:40.931223 UTC
+# Generated at:  2026-04-18 00:09:03.964671 UTC
 # Is deprecated: no
 # Fixed port ID: 1210
 # Full name:     leos.sensors.LTR390
@@ -165,7 +165,7 @@ class LTR390_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY8NYl@00{`t=No*VE73S=eS32I5t)3)KOeYp4IgUeTRhFh|U%phZ<3NX|qaiu=KMq9_oS`8V4WJxa$i)C1AX7j`9d*=E=t)N%'
+        'ABzY8pUdKD0{`t=No*VE73S=eS32I5t)3)KOeYp4IgUeTRhFh|U%phZ<3NX|qaiu=KMq9_oS`8V4WJxa$i)C1AX7j`9d*=E=t)N%'
         'b<|OZrd3;@5Q-k$Q~Q3BS}0kGH`#3>9cKC8`hV|nsBict^grA>n`-_=r)uM+pj6H|fmiq4vi~c$Q1)_8u{v6-27c%z(ZLVBvOmg~'
         'rBBCeUh;Kv_N(N}BpaEIU#WQYM5LmFSHgOu7&hu&r;6cJ+);LMwCq)bT;NrLYCXt({ORRaFZCr++PUe~1HW34F09Ym*Iy@;BIUQq'
         'S4p(ral^3g7aE}#B%iat9g<zwN+RPU-z%3kGT7&o+|YGGnU=6xi(+4Nvf<t=x|Lk5E_deN^m4odzj8eh2gD&#C?(^IBcCVYc-y8s'

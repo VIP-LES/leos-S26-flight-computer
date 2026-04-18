@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/primitive/scalar/Bit.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.982241 UTC
+# Generated at:  2026-04-18 00:09:05.034882 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.primitive.scalar.Bit
@@ -101,7 +101,7 @@ class Bit_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^vB&ubJh6yDO^wzgU=Eqd@^^&nN~jEWSzN&RtITNkU|BqTGhJHgB(B$;JbD6|KKLO`L<|JRq9wp%MbI)}^)FZuGl'
+        'ABzY8q08cF0{^vB&ubJh6yDO^wzgU=Eqd@^^&nN~jEWSzN&RtITNkU|BqTGhJHgB(B$;JbD6|KKLO`L<|JRq9wp%MbI)}^)FZuGl'
         '?|tvE`@8CPnlIcllicMhVGgY1N`B))LBcX!8ttS93^(??tutR+_&70uC-~?H4{#&&Sj9`q->vy5<5gm;ETxwtNL<Dhx5>8j7#7$F'
         'tdqLJq7&vnpT;NHpXqmg;1Px;#=W;v)E*pu!K(<JAHvXkD?#N`B8x2No--fWU3LAO96h+LwE|xKUCj~`(lZ6s&=*9GKr`+<D|HT7'
         'tcBZyGk|z4c}2OMn4&^D-|+*6HRe38a&GgBK*zNxdZ9Pss-~B_EY}%^4%UK))eChqF=@p-z+$~val|GEV<F=nay$;pY+sHcXGUAk'

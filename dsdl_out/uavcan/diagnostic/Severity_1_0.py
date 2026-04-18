@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/diagnostic/Severity.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.749893 UTC
+# Generated at:  2026-04-18 00:09:05.030551 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.diagnostic.Severity
@@ -115,7 +115,7 @@ class Severity_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^vFTW=IM6i&#M1p+h_3N6L7K$Ajdxiu8%g%AQt7dFu*w7j$<&y06%)iYk%o+R4}wWul*(nyWO^r0{PeSPSU=<)2?'
+        'ABzY8q08cF0{^vFTW=IM6i&#M1p+h_3N6L7K$Ajdxiu8%g%AQt7dFu*w7j$<&y06%)iYk%o+R4}wWul*(nyWO^r0{PeSPSU=<)2?'
         '-CRi1sLDR<=N*razweym<Fh{x{{Ht^U-8M#HCvI1q~{x^1(o6l8c62(p^BTz2+Q*9$dc7*Xj9FWTTPa~&L>~w&-00F$WLet^Jh}J'
         '64Jzr1Z^bBSP^<lYz3^@R-TReFfu|VIq%CxzQ*zEywYFkdzrt;vqL_$R*N9D%;evK*&PUV-^#P0hl0tdN2KIO)KcF%b~`O^Y7q-7'
         'R^W~Cr->1bghlg-Weuh`t2*Qd!upaW4a@V&02mLcv3{%~mh%(Y$;FN#x6GS`xhHN46!ra@*YfOyZ!AqBs-umDUZnva%7#{`Oo73m'

@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/metatransport/can/DataClassic.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:42.020887 UTC
+# Generated at:  2026-04-18 00:09:04.925804 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.metatransport.can.DataClassic
@@ -187,7 +187,7 @@ class DataClassic_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8O4HA20{`usTW{RP8HTwhX>~qZitUNViR+9HT1mF!*mVv*rLe);b?w?P(6j`1mlmn4b{9*oAf*V<T(q!J0uf*q2-?eDG(RCg'
+        'ABzY8pv&TE0{`usTW{RP8HTwhX>~qZitUNViR+9HT1mF!*mVv*rLe);b?w?P(6j`1mlmn4b{9*oAf*V<T(q!J0uf*q2-?eDG(RCg'
         '|3Gegm;3|&gaEzi4EcUsk}ElCfYvR#0itg-Bxhf8`8*s_^lyuQ+`6EJ|M|z-J9W3-s2Hx*am<GEiCJw}6{FVLY`0v;vjTtOf!FEQ'
         'yl%((#ZKD_o(HEs3qB2mUox8Jrd)oaYi`xdW@XdzOs``$-FB<vRaDPS(=%^0OxJa4fnPSZtd8rnnt`qP!;jE@9_X5$`+e|P;Ex%m'
         '=XIQF*R$N<SMme)i59OF_@$pXR-@jFG-}l4M;e~WDL-Z8VN-raDz#nmPwt!dTBqvB9#3v``(|Jd+anat9+!daX^b&v=i|{%?>pLc'

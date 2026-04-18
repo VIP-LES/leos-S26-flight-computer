@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/node/port/7510.List.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.892643 UTC
+# Generated at:  2026-04-18 00:09:05.098611 UTC
 # Is deprecated: yes
 # Fixed port ID: 7510
 # Full name:     uavcan.node.port.List
@@ -286,7 +286,7 @@ class List_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{_if-EZ8+5nrA4LCKaaTej@lalFo_oLF~uVmq;$G?DGNP|vai$zN@dGQ8v7Ezdmi$|WUV+9V2swh=%e0>S`&X<qst'
+        'ABzY8q08cF0{_if-EZ8+5nrA4LCKaaTej@lalFo_oLF~uVmq;$G?DGNP|vai$zN@dGQ8v7Ezdmi$|WUV+9V2swh=%e0>S`&X<qst'
         '^r1zIJ`_bC+volT1qu`>`c$+pb!V1yU(}u4qKF*<;*i|g<?QV2Z+^44G5q<To?`khKGA5}%69Xn5`km6&U;qL6?wDl*BicaLXpIi'
         't6>n8!zd6pn+=hCmYn)1c|VzrM@-MEL;In~S}R*#-t%pdZ}>r&zwW3oi4Aj21j_NfM6!77Hr;=g6j^cTN6AM?yxX+GFmOsyC{*$e'
         'j5xrSwpJ34TyunLcWjt2Z7a0Q5DkN`OkNePQwOW<UQ<U+$MZyhD&x02Fr%kgj>J!Ho5N~Us)=&Aa8*x6j>++s-Et4uDyOLLbbM@p'

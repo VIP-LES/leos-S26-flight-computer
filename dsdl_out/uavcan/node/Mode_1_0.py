@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/node/Mode.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.886624 UTC
+# Generated at:  2026-04-18 00:09:05.093237 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.node.Mode
@@ -111,7 +111,7 @@ class Mode_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^v^`)?dI5XbX=G;P|FkkUe%?URNkdwmgT3$#Zb(y{F&O0FP*kmcR=oh|m(i|xH8NJ#VtDn+tHq?rGg@!q6qgDTV?'
+        'ABzY8q08cF0{^v^`)?dI5XbX=G;P|FkkUe%?URNkdwmgT3$#Zb(y{F&O0FP*kmcR=oh|m(i|xH8NJ#VtDn+tHq?rGg@!q6qgDTV?'
         'xF7c8^<(_?cxLwg82S6^<UsYa^Tlqe(<~&KDM2&w8;vs-l0<e3sfA(Ap4v95OiZa*YqwzTz%9IVzq^}ul;pGv<7Z0ROK2YEGG*a2'
         'csM&jdQ52{bH@kl`1ja8aM55i@XEb(c8XAAl!!~iwEG#1y+g+9S<a5G3znrv+n*pQHIx{y>0QeUCAz|h9?Y0|o@>#`S=z`A>oE29'
         'S*A!V49QsDG2BJNU_7DPkgh)spS5$Fhlc#Ja0SMygTjdh{&ZW;&Jt~Co>G;*X=tyE`KTT3(X0doBP5lHvjYx#r|raw%>5ekS_Gfr'

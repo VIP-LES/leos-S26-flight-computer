@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/metatransport/can/BaseArbitrationID.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:42.020081 UTC
+# Generated at:  2026-04-18 00:09:04.924965 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.metatransport.can.BaseArbitrationID
@@ -109,7 +109,7 @@ class BaseArbitrationID_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8O4HA20{`um+iny$7{@o8-JD4XA)I>PBW-D*%`O2-q2~gsfFY2Ug1D(H&yKSmb#`VnhiFr&5?r(b$r3B!N<0FOz#EiD;1PHP'
+        'ABzY8pv&TE0{`um+iny$7{@o8-JD4XA)I>PBW-D*%`O2-q2~gsfFY2Ug1D(H&yKSmb#`VnhiFr&5?r(b$r3B!N<0FOz#EiD;1PHP'
         'E^F`pO-^vxJ0fL&-`F0H{rUUN+^hX_Z@SX|Q%BQ{AP=Gj%S9IQDEx!_k!Y}1(n*s%EQD5jZWUSCD#}d!x{(U~Sf9AB|I~}B&SKs%'
         '{U=Ml-r{kiBMM$*JkHZ3D;l=tBG1K-nID?gB240|m$e#W>mtj|g_adHdI#}i?Nz*?zx92sCK)e^EcDAl<oY-Bn71tO^(d|CKZPO+'
         'HWxO*0$y-d*ww!6_B0DSVG*vI5p%cWJZ#4zxEdFtEwb&qoMdMGED~|MklLFxlec(Yuuc*PE%&Pft8OBDTjP@HTd`ecM?-(<U$olK'

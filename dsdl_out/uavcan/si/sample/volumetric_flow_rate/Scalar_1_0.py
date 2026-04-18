@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/si/sample/volumetric_flow_rate/Scalar.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.777185 UTC
+# Generated at:  2026-04-18 00:09:04.887945 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.si.sample.volumetric_flow_rate.Scalar
@@ -151,7 +151,7 @@ class Scalar_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^{N>u%k~5k8W2mn~b7Z*gwxG_|ExhbK`iMM;}Bi3~Tz){5avsuoSzCAm7gFv(?imy%9^0?m&aRzaXF%mR6YJVG8J'
+        'ABzY8pv&TE0{^{N>u%k~5k8W2mn~b7Z*gwxG_|ExhbK`iMM;}Bi3~Tz){5avsuoSzCAm7gFv(?imy%9^0?m&aRzaXF%mR6YJVG8J'
         'Kv5+97xW2&K0*GuGvx9}a^#<l0G)5RyPWxUW_D)z=dpjBI^C)NikGrMWTM#f4cC&z@?#dn-19?~WXed(tK!rhtMkz2n%^B{yn0kE'
         'eNz3YS}ex>lqE2~oU@&frJj+VVMzvW@2EIWxYaWBw_~;IYi7B3CuA|xRWar7aBZYYE72(?KXme=ijL6EgX)v2nDv>3cZ1w=Q+))6'
         'o<ecBsw&2BNFGNA)MosMS>{{hD@L0^F<xADOs!0S&mawjR;m1$M|WYsSRh}CNip3r5huaAIOASlcp8sP%S2ka13VV)rAGEs9{n=4'

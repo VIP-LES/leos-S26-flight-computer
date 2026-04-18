@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/leos_cyphal_types/leos/sensors/1202.AirQuality.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:40.871482 UTC
+# Generated at:  2026-04-18 00:09:03.954586 UTC
 # Is deprecated: no
 # Fixed port ID: 1202
 # Full name:     leos.sensors.AirQuality
@@ -273,7 +273,7 @@ class AirQuality_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY8NYl@00{`t=NpKt25ykAFs0Fe%dezvLEyyOp#j;F!iRmQ{llF6H%X0A$XE*>xnvp>O#talP6<5)Rq$t-^Wn7+A@yH{ObWS|-'
+        'ABzY8pUdKD0{`t=NpKt25ykAFs0Fe%dezvLEyyOp#j;F!iRmQ{llF6H%X0A$XE*>xnvp>O#talP6<5)Rq$t-^Wn7+A@yH{ObWS|-'
         '$Rm$D@(?FXQk7z*a!^i5e+;;Qi!Dl`l-T0oW9E1F>;C<F{@{T<q5k2E&Q#+sJY5|x`o&Vt@|~Jzm%Lxw`I3{f3YF1n#rFay4iCNU'
         'l)O>CEPgm%b>gq$bDzhb#o17|ymHy8#cnD*bSbFS3qif+w5n)U*&bzxQzfV3=X|H^S89Il4X^foom~avahSHQJ2l^{lm(3OQS<t%'
         'm{KJDF8(|Y+buf?YF@q`IDY&wW9}00x>g)&?|4qBxDmwxt7r$d6^PJWBbjs$gs1BE^@3f_Rcm5(-gPI(tMJNKWA~tYm?TOG|L)O`'

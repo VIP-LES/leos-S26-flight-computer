@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/si/unit/torque/Scalar.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.820215 UTC
+# Generated at:  2026-04-18 00:09:04.823890 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.si.unit.torque.Scalar
@@ -115,7 +115,7 @@ class Scalar_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^vCO-~d-5M6Zn5b%RQ^kO0>!~-*E42f4Ycv!%VtKLkfd%D=^*fTx$$GU4mA_s|>PBfwYE&e>Lo>^SPaC8nc)p^~o'
+        'ABzY8pv&TE0{^vCO-~d-5M6Zn5b%RQ^kO0>!~-*E42f4Ycv!%VtKLkfd%D=^*fTx$$GU4mA_s|>PBfwYE&e>Lo>^SPaC8nc)p^~o'
         't6sgD&+VVT+O7KW_o@*$TqeYT7F3E)lu1ZPriw}#VIlbIJ*!=2orc$=3c^Wva2O84x}PQ`EfBx!=pdtIVnpIfVH2zL2M0+nqmt_2'
         '=g0uG5vmM%%g??Y$0wmP)oC4t!{8SPwN?w}EST^vT$a(FO~FrZ3y^%0$volIQetCzmmROPD1;RQ+;MGNDr)~OW`QtaiG;Fm^UzsE'
         '%8VLI3dJGhEB<!(?07tuJVR_ZLRd!YOL!Ih3Ne<JoN9ia=qvIRw2!Jd9xvY4G_zQ~L0PuPF>-ucYMp;hPfuH&sUxIyET8s^C4981'

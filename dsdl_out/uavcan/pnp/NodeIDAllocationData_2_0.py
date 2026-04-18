@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/pnp/8165.NodeIDAllocationData.2.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.965512 UTC
+# Generated at:  2026-04-18 00:09:05.055664 UTC
 # Is deprecated: no
 # Fixed port ID: 8165
 # Full name:     uavcan.pnp.NodeIDAllocationData
@@ -175,7 +175,7 @@ class NodeIDAllocationData_2_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY8Nz>110{_iiTaO&abzUwhan+J&-KEGEwbqWbYtIfv>SCFUlTe~$5o=NeMOlIaWn42|Gu>oQcc-g+XUBj6`5}P?43Gsh0sNRp'
+        'ABzY8q08cF0{_iiTaO&abzUwhan+J&-KEGEwbqWbYtIfv>SCFUlTe~$5o=NeMOlIaWn42|Gu>oQcc-g+XUBj6`5}P?43Gsh0sNRp'
         '{{%ldfuH=ASO0+k{s95v$DCVLSNF`U<Nz@uNUENh?z)`Y_nlMK`{}uV`LFl3=%2+4#XK@m+8-EQCMr#Ss)niV4@UX4$W2n|<>Jxn'
         'I!&f<8Qq;1dinWs|L4n}E%z1=4w5X><ucw{Jo-UZ)}yK}b^DeF2AP^d7cbQ6Xr!`!krn-0d8BV#zm}%?NL5LmU00P_E_Mb-x-{?+'
         'yF33Qx&C~4xP7?wPs^V#7Y`3qRh7xGuC!Tx0)20oxVvk)c;MYcr%^MTU=YDrg9@h@pXV>*U~xevm%+sPH?A+^N8$^IXL#87@lTfV'

@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/leos_cyphal_types/leos/sensors/1208.BME688.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:40.925442 UTC
+# Generated at:  2026-04-18 00:09:03.958073 UTC
 # Is deprecated: no
 # Fixed port ID: 1208
 # Full name:     leos.sensors.BME688
@@ -318,7 +318,7 @@ class BME688_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY8NYl@00{`t>OKcn073KV?k8L`RZ6&eeN#ewGVv&;LICQ>>lelVct}EDaphex$kQ{499uA3_p+U6`prB|Vrvr3=OaK8z0WG!E'
+        'ABzY8pUdKD0{`t>OKcn073KV?k8L`RZ6&eeN#ewGVv&;LICQ>>lelVct}EDaphex$kQ{499uA3_p+U6`prB|Vrvr3=OaK8z0WG!E'
         'QcEqh)KW_=npSOrLMXa$SMGfrN+PLG{FB@|7NAG+-Os!CzVl{y$jb@wyI0;!)c=ALmGPoiv@@D#xR!2PztZ!zk<kj}Ql;!!z7Ylc'
         'J~3>oL{E#Kk5`Q7+vxOH(U(y=kTuJ33^y_p!M>}$TP^ri*JxFdG)FIyi$k_i_A;K~cxBhiT*Ob$=W<by)NUEBXO$i1LiwWc{M!f;'
         'z<nKk6$M?I?)$Elulj};T_=Cr1iP*k1=1zUu!|cJbZSN2*EOGoWh(Kc*%=(I>bDBIlc~5YGwYU-p$sf%G%~x*{lGzjt#2N@9+`(5'

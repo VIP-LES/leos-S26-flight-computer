@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/time/7168.Synchronization.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.858082 UTC
+# Generated at:  2026-04-18 00:09:05.022942 UTC
 # Is deprecated: no
 # Fixed port ID: 7168
 # Full name:     uavcan.time.Synchronization
@@ -110,7 +110,7 @@ class Synchronization_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^vIZI9%}abCxge5MoG#u*CYIB@Hd*fYMJ*}KS+<y&2V)xB7gyS-cNi+q3~5FD~+*jbW2VK;YnWE>EGun_?S5<tv<'
+        'ABzY8q08cF0{^vIZI9%}abCxge5MoG#u*CYIB@Hd*fYMJ*}KS+<y&2V)xB7gyS-cNi+q3~5FD~+*jbW2VK;YnWE>EGun_?S5<tv<'
         '$xq79a8-3T+4H(*z@87gGh}ylb=6Z(RW<paZ~gE8-QA;4{o~mpQAsuo6)#1Ui7%sZ#)n}n^O;ma^QQirGhJ4(u1bEsnDOT8rvJO<'
         'b<?Zg4vQ#<`+r|WS8-GfwaEGKY*EB%DGQLJg)Ex-R(Qorg<sRX`dgpd?_W31zVU4D56$nI`a5Bybt%S`=BoJu<ZjWZ9o5utKNUPn'
         'I!%HwiF6cdRBzk#St)X%#TAUWeNiYeEqF32G@tTvd0XEJ$3ll0FQz(eo_!3$<4EZ+mkDpuAJp%iI6*jV_z3PD<1O6L@0-)6{z0g8'

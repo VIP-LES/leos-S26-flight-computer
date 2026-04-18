@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/si/unit/length/NarrowVector3.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.849950 UTC
+# Generated at:  2026-04-18 00:09:04.848710 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.si.unit.length.NarrowVector3
@@ -130,7 +130,7 @@ class NarrowVector3_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^vC-)j^x5WZ^9s<pMXqM#27g4BoGtyU^N`s)O@t;O2DNyzR_FTw0)NwVjiAn1dl5K!p&|M{QjWcRdI?V|^`m%W*M'
+        'ABzY8pv&TE0{^vC-)j^x5WZ^9s<pMXqM#27g4BoGtyU^N`s)O@t;O2DNyzR_FTw0)NwVjiAn1dl5K!p&|M{QjWcRdI?V|^`m%W*M'
         '`R1E%@^<>G?sl4wzfz5Jo2!UfFp?|znx_gPmg%C>RysgGx9v=wx!S<<aRs=KH{RhJT=rd7@`B>mYCg<(8Ce<CrF4;ka^OU?$&Jyk'
         'b|G`xtfD{3hG4AJC5n!p*`2KSF_}s_AMhReS;n0+GOZn0e1S(1`;~;g+n1p7145@+&K+kiu=JOY*lr9Tqd(u5BgoeqruV{MhfAAd'
         'prC-#O~8)eQW;rDCx?`As;@M6hf!u(DjjR(z+{2=W!ySe=p0a7@)x##ZV%g{2Nc@~A=0Gt9-k3OW*skcZt~xOJ`zsB2c&eJhlBSF'

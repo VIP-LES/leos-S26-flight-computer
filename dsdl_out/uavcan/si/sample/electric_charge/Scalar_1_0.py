@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/si/sample/electric_charge/Scalar.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.811971 UTC
+# Generated at:  2026-04-18 00:09:04.869676 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.si.sample.electric_charge.Scalar
@@ -151,7 +151,7 @@ class Scalar_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^{NTW{UQ5k8W2mn~b7Z*gwxG_|DGhbK`iMM;}Bi3~Tz){5avsuoSzCAm7gFv(?imy%9^0?k7Ws~}JUW`X>K{Dl03'
+        'ABzY8pv&TE0{^{NTW{UQ5k8W2mn~b7Z*gwxG_|DGhbK`iMM;}Bi3~Tz){5avsuoSzCAm7gFv(?imy%9^0?k7Ws~}JUW`X>K{Dl03'
         '07cQ{E$A-@`qJ0DxijSQ=o0&}5uo$U*~`qgGqW>${yg^g|IT&lzv88A5Sb|Ue8aV5vHX|?G57pXC7CkP@~Sv>$Lc(^x#o8V8Lu8y'
         '%b!$#s+NjzKV=EbFXn6~WT|JQXIPTKZXWZ{Y8m>WV7kw}J0Xjiu8JvthifBMT8U0E`Js~^Rdj@Q9#o%H#jMXPYz%VCP4yAjcnZ7W'
         's;U^jA$c4fu$u8BW|?o1su*ns#dvYqk+d=aK7%wATBY)19^HijV}W-iCdG8iM4SZc;*8tA@H8HomWi}-2Y4*pOO5QOJo;s7d7tZ}'

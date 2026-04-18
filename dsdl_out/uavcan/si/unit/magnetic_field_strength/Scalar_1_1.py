@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/si/unit/magnetic_field_strength/Scalar.1.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.833999 UTC
+# Generated at:  2026-04-18 00:09:04.816494 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.si.unit.magnetic_field_strength.Scalar
@@ -115,7 +115,7 @@ class Scalar_1_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^vCOK%e~5KbX|(DG>2iXQ2yghO@#p-Nl<l|$MRHNXv7_S(%_c-JdGq6DcDJ%A{(1fs*=<S&%*CMBgPM|LHztr^eE'
+        'ABzY8pv&TE0{^vCOK%e~5KbX|(DG>2iXQ2yghO@#p-Nl<l|$MRHNXv7_S(%_c-JdGq6DcDJ%A{(1fs*=<S&%*CMBgPM|LHztr^eE'
         '_suu^vH9~?vr#|cUNz#DtAto#BvtYQWlAI@(?zANbOOSyo-;mk-iX(uO28RBIDunmg?Uoa0_|;22N^9BD-&NzmlU*L3MVsiB!%L{'
         'IwQ)y%adM46*Ul+$Uqn?bqRSREWVxW&!98cnfnYU5LO6v&Pe8+u<#CMmH5XA!u)PbH7#wKaOx;=vEEtND<cc(<N!Tx>?%#&-{@8d'
         'la8pmbm(kh$c$P?3e5%N8{uyE;(EN6JV)DpG$D+}Cpd(#fxv0Wso|FceZe@9AL%@giH{7;9KyFq%kE^4F}|)fE<fkz=Z(nCA$XS0'

@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/node/port/ServiceIDList.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.896007 UTC
+# Generated at:  2026-04-18 00:09:05.101995 UTC
 # Is deprecated: yes
 # Fixed port ID: None
 # Full name:     uavcan.node.port.ServiceIDList
@@ -135,7 +135,7 @@ class ServiceIDList_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY8Nz>110{^{M>u(%25WloZdU-Z!+O+gR7Wzs{Z?DhL@+xUUq{vN(k`%!QWO;9$*vj7S%HBPaN=U5`C<RMhQTGo(fK(*l1L6;4'
+        'ABzY8q08cF0{^{M>u(%25WloZdU-Z!+O+gR7Wzs{Z?DhL@+xUUq{vN(k`%!QWO;9$*vj7S%HBPaN=U5`C<RMhQTGo(fK(*l1L6;4'
         'X3uGJr9t8YMA7|rJ>&7rc;+|zp!@0YK&AXM6X{l{!^o$aE6E~xp9K;3X(MT-iIy3+W@wg2vI&pj>Q>6_6MNyI{nAdFUMl05D=R8y'
         'XeCp5Bg+-<ROz8HYl4Z_bJl9G*pHKt`)Q&we}$`-Z1DNnyHaP?RB4MVEt43n9r(mOKe41jy1uawtr?&!%ajcAjBEQjnBK$h=UUeE'
         '%t;=FFP!P8A<G!e&_i=#kL^maEo%<X$xR;K<?(tZrg5n=tRc!H-sExSjP2n|sxWP`1sVf)k|g3R?zA&N1DVmNJjRkP@UX#jMw^f&'

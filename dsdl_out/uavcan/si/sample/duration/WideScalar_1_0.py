@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/si/sample/duration/WideScalar.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.782910 UTC
+# Generated at:  2026-04-18 00:09:04.903566 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.si.sample.duration.WideScalar
@@ -139,7 +139,7 @@ class WideScalar_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{_KVZExJh5kAR!mo3|o-{QQjQ`eSSA1_fXMM<01i3~Tz){0@-iCZ*fm*nbpVUo-4E~UEw1?mqqtb#xZm<93^@)PnC'
+        'ABzY8pv&TE0{_KVZExJh5kAR!mo3|o-{QQjQ`eSSA1_fXMM<01i3~Tz){0@-iCZ*fm*nbpVUo-4E~UEw1?mqqtb#xZm<93^@)PnC'
         '0u)8tZ$W=S&|lzh?F_j*Nsj%o=>d1oaCbTL?9A-U-XA9Za`$+r{uHle!^lLj=Nqmii{)o5h`Hy7D#?_QmRH5GEvxg;=9=FbX1sb_'
         'EkCG!Uo91re##P<znHU~kfolHo?%G_Z%4UiR;twdL`HloWHHlKG2`!WZD6z#onrc9CqJ&}80|c)9#qA=&#cul$SpV3r(obY)JChS'
         'V)BOMakNiq&X1U7zD1s5ycrae#RbRE%7lAc!!#6HrSdZ#-GKpPfpjIN#caz&90lv*gnNDQc|0;L6KUlR@L0T?8re^I^z+p6KG%mG'

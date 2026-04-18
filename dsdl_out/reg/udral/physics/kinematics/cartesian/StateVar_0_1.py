@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/physics/kinematics/cartesian/StateVar.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:42.282699 UTC
+# Generated at:  2026-04-18 00:09:05.386760 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.physics.kinematics.cartesian.StateVar
@@ -150,7 +150,7 @@ class StateVar_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8O4HA20{`uu+i%;}9mi?Ol4)6S6vs|nH%*vJ6XjwlO}fnO+BIF%zyq61P14k9(NeTTn{;JSAgR<YRzMxvBJGHcLpUJ7UJ48t'
+        'ABzY8q08cF0{`uu+i%;}9mi?Ol4)6S6vs|nH%*vJ6XjwlO}fnO+BIF%zyq61P14k9(NeTTn{;JSAgR<YRzMxvBJGHcLpUJ7UJ48t'
         'vH^P=usm!-_fRYycEK=g$jg9TfFT3+2jpew&LO{tl8)uvdUH?;uzo-Ba?TN@&zHaRJLkx){_npvCj<|7TVuIuS8D~u)+|G<8Lz3c'
         'HLajj%*BRj8;<6?>rOjXv*I)@?aXpR^Dp{)-|%1e^KMG1tBYiR(bDD%&8nr=3JrbPHY#@E6{D^#st$E4s^w_5q1Fqh9o5m!s+RAH'
         '%6ZMQ4YTg+f;(^){zYFF<i5B4H+*+UQ60xJW}D<x|0Pn_Dy@u;^4-*NL#tKWt;;A?)ln6PHd#-E8}*c1xXs3vOgm_+KA;b>X6aed'

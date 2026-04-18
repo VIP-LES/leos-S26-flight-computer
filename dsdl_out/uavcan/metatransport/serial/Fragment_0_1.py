@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/metatransport/serial/Fragment.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:42.004042 UTC
+# Generated at:  2026-04-18 00:09:04.909432 UTC
 # Is deprecated: yes
 # Fixed port ID: None
 # Full name:     uavcan.metatransport.serial.Fragment
@@ -192,7 +192,7 @@ class Fragment_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8O4HA20{`t=O>7&-73Tg^@=s_hj+MkoHi=_XiA2ec<<R-79H)tb=~D#TNtL20wIoNHjmcehcPUdYiYkW|GO$1w$QIC1M;(3C'
+        'ABzY8pv&TE0{`t=O>7&-73Tg^@=s_hj+MkoHi=_XiA2ec<<R-79H)tb=~D#TNtL20wIoNHjmcehcPUdYiYkW|GO$1w$QIC1M;(3C'
         '(MJJAQ1zyx3lyl(laD&~&F)YXZ7H!G+d&f>FyC-~-h1=joA1pNXF>hjvEfYeFMO#nU-hfCLdmC|ZPn~+R=GwCrHWf`xV|0GI6QDE'
         '@S2sN>Cwyc4H|zF4}2Z}G0ult$+7A<e!OYTRV=4ar-2oCmg6^EFDRt!3LkmaY@Iqm9A-;%)bnlEiCHEzJ{Rq8Vv-@!U*fOha9_y^'
         '0?#ft1M0_LqJTYA+nyDN+DA66RXZy6ma0}@l>)9OlhaP7g)a*Y1G`QOm*$-c^IXTiMyr>x!w;-_BW4EcAri@OP1t^v&T?XT-(Gq&'

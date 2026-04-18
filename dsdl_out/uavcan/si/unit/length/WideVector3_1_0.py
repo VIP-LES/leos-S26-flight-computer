@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/si/unit/length/WideVector3.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.852714 UTC
+# Generated at:  2026-04-18 00:09:04.851644 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.si.unit.length.WideVector3
@@ -130,7 +130,7 @@ class WideVector3_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{_KSOK;RL5Z=-*6w0d<fdmKOg5b~uXjR0G=OPhWD$3)8EGL<+tvYdJJF8tJBzm9%WC^4W|A)WBKi~%AWTEBJBf`=q'
+        'ABzY8pv&TE0{_KSOK;RL5Z=-*6w0d<fdmKOg5b~uXjR0G=OPhWD$3)8EGL<+tvYdJJF8tJBzm9%WC^4W|A)WBKi~%AWTEBJBf`=q'
         '&dzxJ%{Sl7>#0v)x}9eEbJZxfxr&$tBe{|<d8!~{nJy}Ar33Uw)|{y`R~vXTssOj~@+Q8*OTNoWUXcAl%?BATBP*l2lrB<G_MM2H'
         '%N(9T=CoNrKg|YUtkflnjz92hyx+!TBI#`5Ci)r1oij469awyUd%^nYgudI8pz<9!hgi-XXD(p$XZJX63?HFC*^@)aA2v8|g};7H'
         '><9w|1(a?aY!57zk%e?}KpqEsN^|#Xlo^&v$67Klxk>mkZXGLh4k*s}Q>#CYhhxzlvMmP_angB%j|n8Rj+Z$%`R+h(DNe!r#B-g8'

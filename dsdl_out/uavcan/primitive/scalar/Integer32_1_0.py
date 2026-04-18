@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/primitive/scalar/Integer32.1.0.dsdl
 #
-# Generated at:  2026-04-03 14:48:41.983652 UTC
+# Generated at:  2026-04-18 00:09:05.036277 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.primitive.scalar.Integer32
@@ -106,7 +106,7 @@ class Integer32_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8Nz>110{^vC&ubJh6kc(+t*ur|iyqy2kScVhRw;NBe}Sy6i>uxwB$L;jU}iETnPpcf*n`DFK%vk7*EcimZmsm_95Ts#$;<b?'
+        'ABzY8q08cF0{^vC&ubJh6kc(+t*ur|iyqy2kScVhRw;NBe}Sy6i>uxwB$L;jU}iETnPpcf*n`DFK%vk7*EcimZmsm_95Ts#$;<b?'
         '_r3Yn{(aPL)laxvOr(=KVh*h0T7Bh0L&Or36~-wK7;X%_EfZf__%JB|Pw>GZ9^gjku$*Uvua|t3@H{H4%9K|lh+M)ox6zy2!w~G_'
         'Z43)+1lB2&W7-PypHAl|*t^ne9pNE{CC0tCN|YWPe#XmaO*diayjGy)jLssH+;iqDj+Y&uQpB(_P{SPLDaXGvTVg_arXe5t6nk9?'
         'op9$_W+Y&`7H;>?!c@ni7liFr5T(=lj_)z7G3R+Mxs~Sw{U}A+37rwwCEed<(j*vKSPC9i&t=cVq!IQ2({8%rh>e88Lc%>rJPylj'

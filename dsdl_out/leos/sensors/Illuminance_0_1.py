@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/leos_cyphal_types/leos/sensors/1204.Illuminance.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:40.930044 UTC
+# Generated at:  2026-04-18 00:09:03.963262 UTC
 # Is deprecated: no
 # Fixed port ID: 1204
 # Full name:     leos.sensors.Illuminance
@@ -174,7 +174,7 @@ class Illuminance_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY8NYl@00{`t=No*VE73S=e<%N!8TUk9xoS055N^%^B*_EZP(w8q4>^RV&>1arfHRFs(f-^Lzq5+gc3pp5|17r&5sH2WL^q`}T'
+        'ABzY8pUdKD0{`t=No*VE73S=e<%N!8TUk9xoS055N^%^B*_EZP(w8q4>^RV&>1arfHRFs(f-^Lzq5+gc3pp5|17r&5sH2WL^q`}T'
         'I_jvS4o$1JKp_-8xF`4hB(+eM5^u8G#5&CKzxDs#o1s4PO{#xfJDqC&MJK8grJ&^JtiY*xw(tGMF8EH)Dptm;mB0&~Bs%bs<9p+L'
         'S^8|E>LlMLr@v0VO0tn|dF8TGOWag+;8Iwt7sGnZ=~U6IvOUf&dVHr6<N~K0RBA!)W8bfjdu6*^WKr6>=F|eOQWk!U&)e7ECX^!S'
         '_sQ2u)NR>eSn~??&<T<+*y%1AZ)hcvcENM}(q<a_tdbqtRw#0Fjn<;OFFIbguNCcbu38h@^R78L-iB8mOWghLL6RsX;=6~xNZg}s'

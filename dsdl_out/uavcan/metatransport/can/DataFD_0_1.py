@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/metatransport/can/DataFD.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:42.022414 UTC
+# Generated at:  2026-04-18 00:09:04.927480 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.metatransport.can.DataFD
@@ -187,7 +187,7 @@ class DataFD_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8O4HA20{`utO>7&-8HRT$Qle!2+45f;PdrX+XB=CUWGjvx|HOX@98BrDaUB?F+Rc(&YgeI2g1ZzX7XcigEo^jw2=Ep#S`-M-'
+        'ABzY8pv&TE0{`utO>7&-8HRT$Qle!2+45f;PdrX+XB=CUWGjvx|HOX@98BrDaUB?F+Rc(&YgeI2g1ZzX7XcigEo^jw2=Ep#S`-M-'
         'LvzeAKrcD^nBJUQjy~pSpqGBbeTO0`%9d5jMrsC#zTxid%<Swu?|v^e@~z}w{(ixz{}=A5EEfDiF=P2o)w7G<O*>a~GFHAkS1J2m'
         ';6&lj)u39-2eqp6>&1!_-Hi@@5q%zsFlCkOIXb_mX3yvCQfAHx?4W9w{7ShRWYm$1c3^*SF$&Yxyi@hPaw&3+u<v7(??%#)=AWW3'
         'qHvRC2SL@#)dI(leoJkyGO9+cC`^6eImN>AXa=kT^=1WXh}28}wG#EwGGI3q9$0m#=c+l6js$ekhZiHa&+XTPa|dZa?kL(Aa}$l$'

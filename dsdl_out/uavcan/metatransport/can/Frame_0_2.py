@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/metatransport/can/Frame.0.2.dsdl
 #
-# Generated at:  2026-04-03 14:48:42.025989 UTC
+# Generated at:  2026-04-18 00:09:04.930431 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.metatransport.can.Frame
@@ -242,7 +242,7 @@ class Frame_0_2:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.UnionType = _restore_constant_(
-        'ABzY8O4HA20{`t@S!^6fdY<7qROz53%aSd()RuL$E|QWZnZD&qpivn|@fGI57&pn5dbq=x$;?op0tC=vvjL3^umn5{@X<hC_>c!9'
+        'ABzY8pv&TE0{`t@S!^6fdY<7qROz53%aSd()RuL$E|QWZnZD&qpivn|@fGI57&pn5dbq=x$;?op0tC=vvjL3^umn5{@X<hC_>c!9'
         'c`%a=5(B{kM3M&sn`DU~NE`$K_!49v@<1R!lKQ*9>gn$38a78fB)b=0RkQv&zOL^7sIRJP9`yV)|Fe|yzxv7Y{i*6yVJKI%DtWVz'
         '|6OyUU=8IaOEcwCHD9wD^?{Fy`BL%2`(>-~dE@*K8^6~u>b<$5IU{5zX3cw(W^ri7s+qNlS*(^zmD&*H+^RSQGP!$Jr7G$->{Pw~'
         'V_bjU;3?kq2aO*#>MUp0YL)!NY|W}RJ`qhT0C}Yv_1;@~t1#6BvnMxY*34Xu5Q<**eNd~+PS$2CRsgfz+Xn4Bl}f47u>0)+0W3|x'

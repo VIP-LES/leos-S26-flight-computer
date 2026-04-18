@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/metatransport/can/ArbitrationID.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:42.018910 UTC
+# Generated at:  2026-04-18 00:09:04.923654 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.metatransport.can.ArbitrationID
@@ -164,7 +164,7 @@ class ArbitrationID_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.UnionType = _restore_constant_(
-        'ABzY8O4HA20{`uqOK;rP8HVR7jqY|7C28s}`BJBee9=toq^_MdO&zC2jHy*2zBENq5ajSkhYE+Bk{m%Q5TIGKuu%dLDi#RPMYq{!'
+        'ABzY8pv&TE0{`uqOK;rP8HVR7jqY|7C28s}`BJBee9=toq^_MdO&zC2jHy*2zBENq5ajSkhYE+Bk{m%Q5TIGKuu%dLDi#RPMYq{!'
         'lb?`nc3F0rpO9rg4&Niqj3mS;(0DTjtoIDBhll5R<~!0~YX6+0(%@hEVsFolUB79?D)MaK`?Kx%s%dq?ZZC|zL}lsB{lE)@dwV^V'
         '9b^|i&OXXk)4CPdUD@|a-`?riL9?q8JBjQd?uAj(%(vW(98b0+a_a4Ov$SFDs3?{XnJ%T%570iy+NE~+Z`sFLI%nBQ5_wKPQE~Q1'
         'xy30RJ3J~&>%aDt?;dq()^hE{wvxQ3a+ig>N!0Ho{YZ`UUDwl#r}p|CJ65AT*VB5&bW+bt$MhLoXZf@)_9CzACEkv7aru4_ds~5W'

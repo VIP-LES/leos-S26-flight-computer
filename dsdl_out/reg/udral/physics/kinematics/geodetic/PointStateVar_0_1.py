@@ -3,7 +3,7 @@
 # Source file:
 # /Users/sebmar496/Desktop/leos/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/physics/kinematics/geodetic/PointStateVar.0.1.dsdl
 #
-# Generated at:  2026-04-03 14:48:42.303994 UTC
+# Generated at:  2026-04-18 00:09:05.352374 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.physics.kinematics.geodetic.PointStateVar
@@ -151,7 +151,7 @@ class PointStateVar_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY8O4HA20{`vY?Qh%09S3k(vSitoZP{@WHO>Q*x~cOdrAeEl-9yv0%~G&Qy}Hc;bSX(mXCED!R7lFT3lwFBbw~$pBM=S<w!Peo'
+        'ABzY8q08cF0{`vY?Qh%09S3k(vSitoZP{@WHO>Q*x~cOdrAeEl-9yv0%~G&Qy}Hc;bSX(mXCED!R7lFT3lwFBbw~$pBM=S<w!Peo'
         'zS!%bFSU356Z$gPt73aGV8F0oSkc{)-;-p<cAEliQ<OpCJBiehJnD0I{M|X;;O}NHW}-j-f!2D{X&P0<A-1j=`rBIFAXTMdt+Xsh'
         'cS-1vEx2~O;kIq^+IowGx5Fbh!*{|tKd+eD3fq3#CQH?J)7Fe?i>^C*!>L}^O|qi7JiA1!CSkeiyrrA&f~&dYie`s?QCTInqg!T3'
         'Gyc#O<Zp*^MjrTOcr)}z70q>Rz20_-6JBG-+u}^Sdxd`ff=-NP?+izjrsisj%TJqT<2PyEuRg#D^K+#`bXc4gEwNLfWt6p}uhe4?'
