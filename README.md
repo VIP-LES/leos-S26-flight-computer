@@ -31,6 +31,39 @@ Install Python dependencies:
 python3 -m pip install -r requirements.txt
 ```
 
+## Raspberry Pi recovery / redeploy
+
+If the flight computer power-cycles and comes back without the Python virtualenv
+or current systemd units installed, the quickest recovery path on the Pi is:
+
+```bash
+cd /home/leos-flight-computer/leos-S26-flight-computer
+chmod +x tools/bootstrap_pi.sh
+./tools/bootstrap_pi.sh
+```
+
+This script:
+
+- recreates `.venv`
+- installs `requirements.txt`
+- copies the service units from `systemd/` into `/etc/systemd/system/`
+- reloads `systemd`
+- enables and restarts the three flight-computer services
+
+To find the current IP address locally on the Pi after boot, use:
+
+```bash
+hostname -I
+ip addr show wlan0
+```
+
+To validate the local GPS path as soon as the network is back, use:
+
+```bash
+gpspipe -w
+sudo journalctl -u fc-time-master -n 50 --no-pager
+```
+
 ## Regenerating DSDL output
 
 Regenerate all Python DSDL packages from the submodules:
