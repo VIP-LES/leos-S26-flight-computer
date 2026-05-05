@@ -1,7 +1,6 @@
 # LEOS S26 Flight Computer — Project Documentation
 
-> **Tip for converting to a Google Doc with Gemini:**
-> Paste this entire document into Gemini and ask: *"Format this Markdown into a clean Google Doc. Use Heading 1 for `#`, Heading 2 for `##`, Heading 3 for `###`, bullet lists for `-`, numbered lists for `1.`, and a monospace font (e.g., Consolas) for fenced code blocks."* Gemini will then produce a Google Doc that mirrors this structure.
+
 
 ---
 
