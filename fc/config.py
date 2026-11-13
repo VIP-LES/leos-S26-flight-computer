@@ -52,7 +52,8 @@ STALE_MS = 2000
 # ── DSDL type names ─────────────────────────────────────────────────────────
 LOWRATE_DSDL = "leos.aggregate.LowRate_0_1"
 GPS_FIX_DSDL = "leos.gps.Fix_0_1"
-EFM_DSDL = "leos.efm.ADC_0_2"
+EFM_DSDL = "leos.efm.EFM_0_1"
+GEIGER_COUNTER_DSDL = "leos.sensors.GeigerCounter_0_1"
 
 # Aggregate inputs. Keep this aligned with leos.aggregate.LowRate.
 SENSORS = [
@@ -66,6 +67,7 @@ SENSORS = [
 PORT_LOW_AGG = fixed_port_id(LOWRATE_DSDL)
 PORT_GPS_FIX = fixed_port_id(GPS_FIX_DSDL)
 PORT_EFM = fixed_port_id(EFM_DSDL)
+PORT_GEIGER_COUNTER = fixed_port_id(GEIGER_COUNTER_DSDL)
 SENSOR_PORTS = [
     (fixed_port_id(dsdl_fqn), dsdl_fqn, field_name) for dsdl_fqn, field_name in SENSORS
 ]
@@ -79,5 +81,6 @@ RECORD_KIND_EFM     = 2
 RECORD_KIND_STATUS  = 3
 
 # Log-writer tuning
-LOG_BATCH_BYTES = 256 * 1024   # flush when queue reaches 256 KiB …
-LOG_FLUSH_MS    = 200          # … or every 200 ms, whichever comes first
+MAX_QUEUE_RECORDS   = 1000
+LOG_BATCH_SIZE      = 100
+LOG_FLUSH_MS        = LOG_BATCH_SIZE * LOWRATE_AGG_HZ * 1000

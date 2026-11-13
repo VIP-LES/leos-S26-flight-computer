@@ -17,6 +17,7 @@ import time
 from pycyphal.application import make_node, NodeInfo
 from pycyphal.transport.can import CANTransport
 from pycyphal.transport.can.media.socketcan import SocketCANMedia
+from leos.efm import HallEvent_0_1, SampleBatch_0_1
 
 # fc.__init__ ensures dsdl_out is on sys.path
 import fc  # noqa: F401
@@ -24,12 +25,16 @@ import fc  # noqa: F401
 from fc.config import (
     CAN_INTERFACE,
     CAN_MTU,
+    EFM_DSDL,
     NODE_ID_LOW_AGG,
     NODE_NAME_LOW_AGG,
     LOWRATE_AGG_HZ,
     STALE_MS,
+    PORT_EFM,
     PORT_LOW_AGG,
+    PORT_GEIGER_COUNTER,
     PORT_GPS_FIX,
+    GEIGER_COUNTER_DSDL,
     GPS_FIX_DSDL,
     LOWRATE_DSDL,
     SENSOR_PORTS,
@@ -39,7 +44,8 @@ from fc.config import (
 
 Fix_0_1 = resolve_dsdl_class(GPS_FIX_DSDL)
 LowRate_0_1 = resolve_dsdl_class(LOWRATE_DSDL)
-
+GeigerCounter_0_1 = resolve_dsdl_class(GEIGER_COUNTER_DSDL)
+EFM_0_1 = resolve_dsdl_class(EFM_DSDL)
 
 def _now_ms() -> int:
     return int(time.monotonic() * 1000)
@@ -58,22 +64,32 @@ async def run() -> None:
         transport=transport,
     )
     node.start()
-
     agg_pub = node.make_publisher(LowRate_0_1, PORT_LOW_AGG)
 
     # ── Per-sensor state: {field_name: {"msg": <latest>, "rx_ms": int}} ──
     latest: dict[str, dict] = {}
-
+    geiger_counts: int = 0
+    efm_hall_counts = [0, 0]
+    efm_min = [float("inf"), float("inf")]
+    efm_max = [float("-inf"), float("-inf")]
+    efm_sum = [0.0, 0.0]
+    efm_sample_counts = [0, 0]
+    print("EFM class:", EFM_0_1)
+    print("Hall class:", HallEvent_0_1)
+    print("Sample class:", SampleBatch_0_1)
     # ── Create one subscriber per sensor ─────────────────────────────────
     async def _sensor_callback(field_name: str, sub):
         """Receive loop for a single sensor subject."""
+        print(f"Sensor callback: {field_name}")
         async for msg, _transfer in sub:
+            print(f"Received: {field_name}")
             latest[field_name] = {"msg": msg, "rx_ms": _now_ms()}
 
     tasks: list[asyncio.Task] = []
     for port_id, dsdl_fqn, field_name in SENSOR_PORTS:
         cls = resolve_dsdl_class(dsdl_fqn)
         sub = node.make_subscriber(cls, port_id)
+        print(f"Subscribed to {field_name}, {port_id}, {cls}")
         tasks.append(asyncio.create_task(_sensor_callback(field_name, sub)))
 
     # ── GPS fix subscriber ───────────────────────────────────────────────
@@ -85,10 +101,51 @@ async def run() -> None:
 
     tasks.append(asyncio.create_task(_gps_callback()))
 
+    geiger_counter_sub = node.make_subscriber(GeigerCounter_0_1, PORT_GEIGER_COUNTER)
+
+    async def _geiger_counter_callback():
+        nonlocal geiger_counts
+        async for msg, _transfer in geiger_counter_sub:
+            geiger_counts += len(msg.counts)
+
+    tasks.append(asyncio.create_task(_geiger_counter_callback()))
+
+    efm_sub = node.make_subscriber(EFM_0_1, PORT_EFM)
+
+    async def _efm_callback():
+        nonlocal efm_hall_counts, efm_min, efm_max
+        nonlocal efm_sum, efm_sample_counts
+
+        async for msg, _transfer in efm_sub:
+
+            if msg.hall_event is not None:
+                event = msg.hall_event
+                idx = event.efm_index
+
+                if 0 <= idx < 2:
+                    efm_hall_counts[idx] += 1
+
+            elif msg.samples is not None:
+                batch = msg.samples
+
+                values = [
+                    sum(batch.efm0_diff) / 4.0,
+                    sum(batch.efm1_diff) / 4.0,
+                ]
+
+                for idx, value in enumerate(values):
+                    efm_min[idx] = min(efm_min[idx], value)
+                    efm_max[idx] = max(efm_max[idx], value)
+                    efm_sum[idx] += value
+                    efm_sample_counts[idx] += 1
+
+    tasks.append(asyncio.create_task(_efm_callback()))
+
     # ── Aggregation loop at LOWRATE_AGG_HZ ───────────────────────────────
     period = 1.0 / LOWRATE_AGG_HZ
 
     async def _aggregation_loop():
+        nonlocal geiger_counts
         while True:
             now_ms = _now_ms()
 
@@ -106,6 +163,30 @@ async def run() -> None:
             gps_entry = latest.get("gps_data")
             if gps_entry is not None and (now_ms - gps_entry["rx_ms"]) < STALE_MS:
                 agg.gps_data = gps_entry["msg"]
+
+            agg.geiger_aggregate.counts_in_interval = geiger_counts
+            geiger_counts = 0
+
+            # EFM aggregation
+            for idx in range(2):
+                efm = agg.efm_aggregate[idx]
+                efm.valid = efm_sample_counts[idx] > 0
+
+                if efm.valid:
+                    efm.avg_sample = efm_sum[idx] / efm_sample_counts[idx]
+                    efm.min_sample = efm_min[idx]
+                    efm.max_sample = efm_max[idx]
+
+                efm.hall_events_in_interval = efm_hall_counts[idx]
+
+                # Reset interval statistics
+                efm_hall_counts[idx] = 0
+                efm_min[idx] = float("inf")
+                efm_max[idx] = float("-inf")
+                efm_sum[idx] = 0.0
+                efm_sample_counts[idx] = 0
+
+            print(f"Published lowrate agg!");
 
             await agg_pub.publish(agg)
             await asyncio.sleep(period)
