@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/si/sample/angle/Quaternion.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:52.921177 UTC
+# Generated at:  2026-11-14 09:05:22.457965 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.si.sample.angle.Quaternion
@@ -166,7 +166,7 @@ class Quaternion_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY83@7kv0{^{NU2h%589sLG_$zVZIA0_ICX^<2o3jTDHZCnK!N{eW#-vH0X;r$N-5sA9WzWubX4dwJgaj9$xLS#ovX%G={Dk}j'
+        'ABzY8QY83l0{^{NU2h%589sLG_$zVZIA0_ICX^<2o3jTDHZCnK!N{eW#-vH0X;r$N-5sA9WzWubX4dwJgaj9$xLS#ovX%G={Dk}j'
         'q^g46ao-!%o8EGlzVGhrImf}dEJw1RcV}kbdFK6`{b=Iv#fet+%b!pCk%?l@H(W~=%lj;dx#x$fmntJIFZ1KKt<FN5X?~}l^73K1'
         '{BikVxs*@(3G2c9<&5owEb)x=4C|%vHcPtj|92U)TqjZ`Wj^iiaBWZ&t$gZzCqFFd7;Sx8eq82rKC@QKAhX<*AAt6!@EWWt^T|!g'
         '<7mid){mHFzD1H^ydD&j1A12WxOcmsghH!C-sjOB7%&zXmtsoHG)%-X*j=1-uP;80N2+B{TDb!}7T-&Z>?S<=O=5YM>w{LB^8;!9'

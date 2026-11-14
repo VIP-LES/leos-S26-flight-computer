@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/metatransport/can/DataClassic.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:53.210730 UTC
+# Generated at:  2026-11-14 09:05:22.629247 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.metatransport.can.DataClassic
@@ -187,7 +187,7 @@ class DataClassic_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84JYtw0{`us+mF=N9mhSl-I={#*$r^QA)(}O*_mA+1WH1<Bo)YoQYZ+iX)Vu;S$pfb$o8yuQ$=bXT0v#CtKv#g``Cx(Pl(ii'
+        'ABzY8QY83l0{`us+mF=N9mhSl-I={#*$r^QA)(}O*_mA+1WH1<Bo)YoQYZ+iX)Vu;S$pfb$o8yuQ$=bXT0v#CtKv#g``Cx(Pl(ii'
         'Ag_H({saDmNPX!!_V;*f&n($SYH8I$g5TL=`^?uKe?C6;nqL+F*uJ2IfBa+J-KN{LtD0*#mTp@g>vh|xYK=~-+i@+=2>j^>p3`f1'
         'J;(UTZr2E&2d6#_J_(p#(%O29FF(=Kw;Ou9+A=)dbM&^`?Koal^n9Ru`b}GRU8@oJWo_GVT&vR#OvN96g!c15Rn**Xf=>f~Qqw)p'
         'vFbg~aD$)m57;MKyjI|seqb4Pvma?fYx0lOJdu-sO66gje?}^`S@KWroA<g?w|I}oH@f{nV2+y=8P1&Ify_CKv1sPw(N6C>+6~<`'

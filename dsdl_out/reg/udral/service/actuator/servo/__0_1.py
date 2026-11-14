@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/service/actuator/servo/_.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:54.291320 UTC
+# Generated at:  2026-11-14 09:05:23.336567 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.service.actuator.servo._
@@ -81,7 +81,7 @@ class __0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY84kz$x0{^{Q|8LvI6;IK2N!c%J(X|CSV7&#{VAnF`E^UDY%?8I&TQBh!*vi&mNQe`861h-3mPa~P-~j6nD^@_j3WWQA_jz|m'
+        'ABzY8QzZCm0{^{Q|8LvI6;IK2N!c%J(X|CSV7&#{VAnF`E^UDY%?8I&TQBh!*vi&mNQe`861h-3mPa~P-~j6nD^@_j3WWQA_jz|m'
         'ij?TY8M?8kBa(OT%je#`_jxD%{gr<|_{}AK%|A+KfeK>RQzDCa96jcvSh$`qr>Rs?F3S0vw?rIG@i7?AQc*rF*S{;Dlxy>!c~O#x'
         'tPC&B-#pH<!q1CLw1>RvC434IS2Hnjiy-5%3pFQ^FI<k{JeQe%AYHGVU-3>vrXrb;#LIuSpP!buFWr9W`|`VT{<_EWJc~v}E>wBH'
         'oWI++_eL|L>j{kuM4Abo!{qXZ`CHyNIu(JJ$}IPypxmFo<0)BWzQBuEcqz}ra{d<m6GtQ0i>1%wa{k&O{69UUmru+2_x(^#MPKo0'

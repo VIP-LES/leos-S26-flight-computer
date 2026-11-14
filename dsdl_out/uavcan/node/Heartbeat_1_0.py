@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/node/7509.Heartbeat.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:53.086100 UTC
+# Generated at:  2026-11-14 09:05:22.550758 UTC
 # Is deprecated: no
 # Fixed port ID: 7509
 # Full name:     uavcan.node.Heartbeat
@@ -208,7 +208,7 @@ class Heartbeat_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY84JYtw0{`t<Z*LsM8MhNBb}k_agcv9dECGVu`u6OEgz%?n563R2i_ezhKuU#{x!t*&arSn$JF|DbRv=K@l(Z`mDGNe<SE&+w'
+        'ABzY8QY83l0{`t<Z*LsM8MhNBb}k_agcv9dECGVu`u6OEgz%?n563R2i_ezhKuU#{x!t*&arSn$JF|DbRv=K@l(Z`mDGNe<SE&+w'
         'fl7RUzThM95%>V8;$@#_X7+sN*rZWggw#69{>HPjGtWH#pU3Y_eDvuPWBMn1GVTX52whLogp-i}nlwY|dcNqyLUKj(?19TP<Q*6W'
         '8~vE(ck<cy^LO%@?4ZY^h$cB3%O1F@lGImeLPwVz@FLQIEl#GS>yyZhL_powC`nY45|w9DUY914iwHNFeBF-k<n{6T*v<U?JUi?W'
         'r4rsu6_xp0u;U)&4p!yafn`p^V4H@L7Z61}g@o<(d7R({c^6ikxE4v?j%ZMe6m8RF^g@TdCRbiaqqbss-GR-0B9+&Hd*$r0Y<jKO'

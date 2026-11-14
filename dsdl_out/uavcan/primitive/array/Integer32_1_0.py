@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/primitive/array/Integer32.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:52.551432 UTC
+# Generated at:  2026-11-14 09:05:22.256406 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.primitive.array.Integer32
@@ -137,7 +137,7 @@ class Integer32_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY83@7kv0{`t<TW{Rf5nkRY%NNPAt;9|u#<87sV(t2F$GLQyAcczQxUSXat)RHO$0AWKxgfcMR3Lx?w1om3pa<~ryB_s3^pFSr'
+        'ABzY8QY83l0{`t<TW{Rf5nkRY%NNPAt;9|u#<87sV(t2F$GLQyAcczQxUSXat)RHO$0AWKxgfcMR3Lx?w1om3pa<~ryB_s3^pFSr'
         'g|;sO`l6qa;c|7^%4=J;B%`hLpe4`DeDlqmLux<GqW<isiBk86PqY`BX)~<2DN6z`4F2rZLsoGcajPAtLB=FMF`XryM%GE#?-$xk'
         'K9yI0kl)KPH{8f;k=^Nda}6)5w3DC}WWgM(cuC?dRDK<0Y?dXrZc1*ub1X@NIFf#eTi^ArpGr`m^f&o~<ioC)Wl2!)WGt0`l!I7p'
         'IZ1B(DqvxAo6Rw|>1Cdq<rMja0pU3>$;ZF*Xq8re!=l;D|7E_~U)l+mg{;M*tcN#%&Q`^ek4^`(5o`8p?nfJT>p|v*-DDCRqT2A%'

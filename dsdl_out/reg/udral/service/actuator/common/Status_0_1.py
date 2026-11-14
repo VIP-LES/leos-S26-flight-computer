@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/service/actuator/common/Status.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:54.309104 UTC
+# Generated at:  2026-11-14 09:05:23.346161 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.service.actuator.common.Status
@@ -213,7 +213,7 @@ class Status_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY84kz$x0{`t;+ix958Mkw>kL_F)ng(7nkx+1iy-R2sK><;xZHjej$BNSw1Z6vCcg~qfc6XMY*%O~gm0F=z39KL@ix3Zp2gC#7'
+        'ABzY8QzZCm0{`t;+ix958Mkw>kL_F)ng(7nkx+1iy-R2sK><;xZHjej$BNSw1Z6vCcg~qfc6XMY*%O~gm0F=z39KL@ix3Zp2gC#7'
         '0r9{)5Bv|jA@N`E7JlFCx%r$E>K289geBX%-+cG`?0ZLkzI|@a{gmgkUSy)!3yjDWkJWwNiiH=1I?1$AR#fHjS4FH6JVv*AnW!FD'
         'm)@`5tyas0K&7e3D>+vl-?e!W+9DVGQH};FPrza|7agyNavpmS(^aAHIMBJ(xd%y!PQ6{rZDFdi5p+dvlun87;_d$P<ElB=od2+T'
         'zbaP(Zf&kwg%zfH8$zC9!4Rt|k6u?Ijz(%N2NAbCu%xS8tbua5yio9N$WzZKuSk{ktVlAEb27`@4SCFA>oIwvIp3TkP2}mfEBRcX'

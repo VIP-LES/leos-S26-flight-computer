@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/node/434.GetTransportStatistics.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:53.073362 UTC
+# Generated at:  2026-11-14 09:05:22.543758 UTC
 # Is deprecated: no
 # Fixed port ID: 434
 # Full name:     uavcan.node.GetTransportStatistics
@@ -85,7 +85,7 @@ class GetTransportStatistics_0_1:
         # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
         # is not dependent on PyDSDL.
         _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-            'ABzY84JYtw0{^vB-D}i95I^y3Yt^cV`shAM6)v&0=({gIoYvASzR9vlrk91yZrq)mcS6BFC{`8}I{v@T-t|zbeKZfrOlC9l`^bFi'
+            'ABzY8QY83l0{^vB-D}i95I^y3Yt^cV`shAM6)v&0=({gIoYvASzR9vlrk91yZrq)mcS6BFC{`8}I{v@T-t|zbeKZfrOlC9l`^bFi'
             '|9sx>&9C^NomHVSnGE2yGWw$`3}mu&P3wY2pm<}1zALfwa4>6uPU+Dx9nogIBCTq;{<u?<QrXP93bL1g2VU9GI*%h%r~~RUWc%>G'
             'gMbv*<OF=s&Qjfrt8dTZQyTV$m%h+3#cNU_dR=q~f!<NP^G7a=*<$8VI#)sKp;QPJox}}!sHafLG*{}1cH?asT<1&Rf&tkotSN4!'
             'htWkQjVqO*cy*6SPWMvrl;XF%b`9h~HF>C&hbkXy%qO}X7znum7Y3v4XM;nd$2AU;M2yPkFy*^dCU3jK=u&zZcP8PIl|m(vRSWq-'
@@ -256,7 +256,7 @@ class GetTransportStatistics_0_1:
         # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
         # is not dependent on PyDSDL.
         _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-            'ABzY84JYtw0{`urTW=f36@XWwM6W1H)?Ko#*lXFA<yfK=-(t&Y9M^RcV`^m~JE?=F-7d+YW)*Um*o(9ZlGJ%<VHXROK(;{8Uyxr='
+            'ABzY8QY83l0{`urTW=f36@XWwM6W1H)?Ko#*lXFA<yfK=-(t&Y9M^RcV`^m~JE?=F-7d+YW)*Um*o(9ZlGJ%<VHXROK(;{8Uyxr='
             '<gt(W33<zF9{ZTbp0jgiB{Ei;1Z{u<Hej8ZotZOdF5j6O9}oPkb56_tC8yeZ^`PFYSONDPyXkyjSDU<I)x1{Q3!IRr$;hvG(`iAl'
             '{&26&(@)b2pQIn9OG(jkT$lT)(2|h{p&!-4$miWz1})cafr^Wfy;HN@itE*R<qaM_^ldk2dw%#Jv_mHdomx=Y<nYA}Ah&Mqa6fQ7'
             '7gZm5hr*wxOk;h2PCrSLVapCf->F6+57OU3J%=<R&y^;FuRFY1-?yw})$P!>LNr$#ksn1VnLB9cy|?zwOGR0XDg(qgR4S&a)ZAg!'
@@ -306,7 +306,7 @@ class GetTransportStatistics_0_1:
 
     _FIXED_PORT_ID_ = 434
     _MODEL_: _pydsdl_.ServiceType = _restore_constant_(
-        'ABzY84JYtw0{`ur&2QYs6~HO2KB$!}>&ucXITkHDvSLds#~-mR=cA6}B*xSVAv=jLEz4cbid4AdmLC!oG=bBig&h#cqG5rc1$xf8'
+        'ABzY8QY83l0{`ur&2QYs6~HO2KB$!}>&ucXITkHDvSLds#~-mR=cA6}B*xSVAv=jLEz4cbid4AdmLC!oG=bBig&h#cqG5rc1$xf8'
         'ha$%w^C#rgbB;ac*!MVZsNIc}I6)h<fCXsZ4Cm|3oB6#N&hTO1pZ>Y5<bUZxbI%Gbw_=1ma7@>E->ka4V$}Rb(+{19XX)@g9_%<Z'
         'et)mYvrn_<KFU7GmeV6fz<(X{Fft;1ZY$}Ldr=VAqB!Wv*>8Ae1L`>!n>#hrt9ZV}D{t`VeqefG(+{G1kr_E*<kZ5-rl>PZRbz(-'
         'q2qg4^WZxa{xo9>>-j_W5ol$YQ4~1UIO1XUi!7aNiyPHF(dGx3&*II1*UX4p+2eH7s5=R_3~bkMtZXA4H$p!SY8(<=ZZyrv&eBm7'

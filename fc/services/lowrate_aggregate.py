@@ -18,6 +18,7 @@ from pycyphal.application import make_node, NodeInfo
 from pycyphal.transport.can import CANTransport
 from pycyphal.transport.can.media.socketcan import SocketCANMedia
 from leos.efm import HallEvent_0_1, SampleBatch_0_1
+from collections import deque
 
 # fc.__init__ ensures dsdl_out is on sys.path
 import fc  # noqa: F401
@@ -66,14 +67,66 @@ async def run() -> None:
     node.start()
     agg_pub = node.make_publisher(LowRate_0_1, PORT_LOW_AGG)
 
+    RISING = 0
+    FALLING = 1
+
+    WINDOW_US = 1_000_000
+
+    last_edge_us = [
+        [None, None]
+        for _ in range(2)
+    ]
+
+    last_hall_rx_time = [None, None]
+
+    periods_us = [
+        deque(maxlen=10)
+        for _ in range(2)
+    ]
+
+    motor_frequency_hz = [0.0, 0.0]
+
+
+    def record_motor_edge(
+        motor_index: int,
+        timestamp_us: int,
+        rising: bool,
+    ) -> float:
+        """Record an edge and return rolling motor frequency in Hz."""
+
+        edges = last_edge_us[motor_index]
+        periods = periods_us[motor_index]
+
+        while periods and timestamp_us - periods[0][0] > WINDOW_US:
+            periods.popleft()
+
+        if rising:
+            previous = edges[RISING]
+
+            if previous is not None:
+                delta_us = timestamp_us - previous
+
+                if 0 < delta_us <= WINDOW_US:
+                    periods.append((timestamp_us, delta_us))
+
+            edges[RISING] = timestamp_us
+
+        else:
+            edges[FALLING] = timestamp_us
+
+        if not periods:
+            return 0.0
+
+        average_period_us = (
+            sum(delta for _, delta in periods) / len(periods)
+        )
+
+        return 1_000_000.0 / average_period_us
+
     # ── Per-sensor state: {field_name: {"msg": <latest>, "rx_ms": int}} ──
     latest: dict[str, dict] = {}
     geiger_counts: int = 0
     efm_hall_counts = [0, 0]
-    efm_min = [float("inf"), float("inf")]
-    efm_max = [float("-inf"), float("-inf")]
-    efm_sum = [0.0, 0.0]
-    efm_sample_counts = [0, 0]
     print("EFM class:", EFM_0_1)
     print("Hall class:", HallEvent_0_1)
     print("Sample class:", SampleBatch_0_1)
@@ -113,8 +166,7 @@ async def run() -> None:
     efm_sub = node.make_subscriber(EFM_0_1, PORT_EFM)
 
     async def _efm_callback():
-        nonlocal efm_hall_counts, efm_min, efm_max
-        nonlocal efm_sum, efm_sample_counts
+        nonlocal efm_hall_counts
 
         async for msg, _transfer in efm_sub:
 
@@ -125,19 +177,13 @@ async def run() -> None:
                 if 0 <= idx < 2:
                     efm_hall_counts[idx] += 1
 
-            elif msg.samples is not None:
-                batch = msg.samples
+                    last_hall_rx_time[idx] = time.monotonic()
 
-                values = [
-                    sum(batch.efm0_diff) / 4.0,
-                    sum(batch.efm1_diff) / 4.0,
-                ]
-
-                for idx, value in enumerate(values):
-                    efm_min[idx] = min(efm_min[idx], value)
-                    efm_max[idx] = max(efm_max[idx], value)
-                    efm_sum[idx] += value
-                    efm_sample_counts[idx] += 1
+                    motor_frequency_hz[idx] = record_motor_edge(
+                        motor_index=idx,
+                        timestamp_us=event.timestamp_us,
+                        rising=event.rising,
+                    )
 
     tasks.append(asyncio.create_task(_efm_callback()))
 
@@ -168,23 +214,25 @@ async def run() -> None:
             geiger_counts = 0
 
             # EFM aggregation
+            now = time.monotonic()
+
             for idx in range(2):
                 efm = agg.efm_aggregate[idx]
-                efm.valid = efm_sample_counts[idx] > 0
 
-                if efm.valid:
-                    efm.avg_sample = efm_sum[idx] / efm_sample_counts[idx]
-                    efm.min_sample = efm_min[idx]
-                    efm.max_sample = efm_max[idx]
+                last_rx = last_hall_rx_time[idx]
 
-                efm.hall_events_in_interval = efm_hall_counts[idx]
+                valid = (
+                    last_rx is not None
+                    and (now - last_rx) <= 1.0
+                    and motor_frequency_hz[idx] > 0.0
+                )
 
-                # Reset interval statistics
+                efm.valid = valid
+                efm.motor_frequency = (
+                    motor_frequency_hz[idx] if valid else 0.0
+                )
+
                 efm_hall_counts[idx] = 0
-                efm_min[idx] = float("inf")
-                efm_max[idx] = float("-inf")
-                efm_sum[idx] = 0.0
-                efm_sample_counts[idx] = 0
 
             print(f"Published lowrate agg!");
 

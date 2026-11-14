@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/primitive/array/Integer8.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:52.559544 UTC
+# Generated at:  2026-11-14 09:05:22.261188 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.primitive.array.Integer8
@@ -137,7 +137,7 @@ class Integer8_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY83@7kv0{`t=OKcn073KWtKW+KL*h$1VwnHZtNjv^9&ZlaE77A{U%UW%qO)(mhW6hvLaxgO#r~&~L6fG2BfIh%uKuayP)KW_='
+        'ABzY8QY83l0{`t=OKcn073KWtKW+KL*h$1VwnHZtNjv^9&ZlaE77A{U%UW%qO)(mhW6hvLaxgO#r~&~L6fG2BfIh%uKuayP)KW_='
         'wbW8=Hv+oRQcErShNM1>EZedr8BL^xIP>oByz{O|9nPJUpM85R(f$eh-HEDSb#l6IdbZ)%e>KXEnbRwcn%nU0z>LCE!-3bV1WnKU'
         '<AiHQPotYZMBhi*P|@o~jobU1#(2f3=UmUO*?~Q7<_ym>CUW1_19Qyuicy%<$4$?-8}-OagxYuA>!%S3l=w&VLlmCSjUe#sax*af'
         '=+Dt^pf;VNQ2DKGI@K*O$Mvca7<v#R46p1G9>a>lOWzrMm9PBHtd9lOujAF;ot@H6$E=z4pqp<OIGY=e!n4EnSlz64x7?fUgkH7-'

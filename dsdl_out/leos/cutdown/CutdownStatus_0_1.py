@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/leos_cyphal_types/leos/cutdown/1010.CutdownStatus.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:49.462785 UTC
+# Generated at:  2026-11-14 09:05:20.195825 UTC
 # Is deprecated: no
 # Fixed port ID: 1010
 # Full name:     leos.cutdown.CutdownStatus
@@ -112,7 +112,7 @@ class CutdownStatus_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY82`BJs0{^vCU27CE6y4gdwblBuMN!bIsAyql+Jb^Fg4VV!+ty{L)h7v=NxC<XnT$zh-4z6VP!s|Rjepc%U^2VgTD6D|&cn=|'
+        'ABzY8P$c+j0{^vCU27CE6y4gdwblBuMN!bIsAyql+Jb^Fg4VV!+ty{L)h7v=NxC<XnT$zh-4z6VP!s|Rjepc%U^2VgTD6D|&cn=|'
         '+~nlk<eu|x;#*~^Qa)xO?-NCMfE1MsbM^+uoCYWnX)YAg)SA<gmPMiqNq71=wfpw&d;8YjF_S36smovHRHz^+G!d_}V0G|~G}eW('
         'ri!{$Dkd@u6*K*O81LI=r8)M|zPDx;VXY;L3r&@M>0pl`bTG@B$#q6KIV3WJ2-X;B&+fS8xnwERtm|gfb~D8~86}NO(+-tKtC~eI'
         '(}>foqro<-4m`n1qf`)TVcuM5jez{JVAbWee9Bk!!M3fLM@r+2U`c)k`c%X)X{OZhR3;D+i8U4LhUZLmRb+mVK41YgxG;<^HLGwL'

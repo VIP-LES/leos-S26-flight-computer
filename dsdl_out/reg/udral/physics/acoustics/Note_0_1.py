@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/physics/acoustics/Note.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:54.403842 UTC
+# Generated at:  2026-11-14 09:05:23.398775 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.physics.acoustics.Note
@@ -187,7 +187,7 @@ class Note_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84kz$x0{_)kZI2X15MJP3;6UVpFNqpx{eWlmX27=?qX`j0OjeHLju2ylP0vj4Rwq5vLwC<{OF|Sy1Ey6HT0i*{{OHdx@t^n?'
+        'ABzY8QzZCm0{_)kZI2X15MJP3;6UVpFNqpx{eWlmX27=?qX`j0OjeHLju2ylP0vj4Rwq5vLwC<{OF|Sy1Ey6HT0i*{{OHdx@t^n?'
         'u)1g8I5;pScZr+aZEsaq^;1<(b=TK3zx;iu6F=^FJt#~e6Kc2?Oo|&UlRTlhDr;qg<=#EBZgrE}M)OO9n*00yja&YvUvjgwVkPQ{'
         '=KZ88G?PgU10!;iuv|69hSiD+F80$6u8mNYhmM=SJY3)R-A;GU_x_f52Pv~wi>$HS_$%mq8(8CA-p!s9Tow~J3$$RCQ5!JA-c|^+'
         '?s&sCa#kfqBuyo3($oA}!>fFdtmjNJ?O`4cboX>S0S6qq;^D~9_ULvXYAs4(#Rh^na84>_AI{4`nh8rKulg2zmmsj58B0r5Ah1{5'

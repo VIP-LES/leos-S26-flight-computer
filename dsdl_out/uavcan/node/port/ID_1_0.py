@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/node/port/ID.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:53.108126 UTC
+# Generated at:  2026-11-14 09:05:22.563027 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.node.port.ID
@@ -164,7 +164,7 @@ class ID_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.UnionType = _restore_constant_(
-        'ABzY84JYtw0{`uoTaOe)6vt=S>n!XAmzxOE0^%;PJzQ2mMUhKLu-SFP0?|ZLR(IFVDeUQ<bXPCCCK`E=xJe~WLiy;2Ao}QoKKLR0'
+        'ABzY8QY83l0{`uoTaOe)6vt=S>n!XAmzxOE0^%;PJzQ2mMUhKLu-SFP0?|ZLR(IFVDeUQ<bXPCCCK`E=xJe~WLiy;2Ao}QoKKLR0'
         'G<a(I%x$^F2lt6hW`EUHU8hf-KIdQ6KMejdIazA`=|he6FbgA>Wg?Y4lHYPa5-tmpdLzlC5=K|<#4?F*uQ!BwY-S&t@63!IVll7d'
         '*mTZU10K6^5(>AGq{_W<&FE3KD$)!m87S$IyVQPcys}q%WF8v5opGg7>E}vh<{sL6fft>-j2^l!MHF^D7-Jz<oGI%TK4pAarFo$8'
         'RP;FtLwf%+E-vT(eGw@16h@%Zb_#Z&BQQntreEYzBb9Zj<f>i#oj8-VScErXC2At=57Bn!OT{7)*Ay6U932jLrdS=_Fz~kCv(z?Z'

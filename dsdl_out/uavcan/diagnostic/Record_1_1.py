@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/diagnostic/8184.Record.1.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:52.993826 UTC
+# Generated at:  2026-11-14 09:05:22.497921 UTC
 # Is deprecated: no
 # Fixed port ID: 8184
 # Full name:     uavcan.diagnostic.Record
@@ -224,7 +224,7 @@ class Record_1_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY83@7kv0{_ifOKcri8MYJ0KE8Q0X_`k<N=|7>oz@;Vp-D|kA&(|aH1SR3q-_ME)44OpKF68I?VK6gx2ULH6eVI1SIQuDgFs?a'
+        'ABzY8QY83l0{_ifOKcri8MYJ0KE8Q0X_`k<N=|7>oz@;Vp-D|kA&(|aH1SR3q-_ME)44OpKF68I?VK6gx2ULH6eVI1SIQuDgFs?a'
         '35j(jB-WMKA%wbOfmlQ=Sg^_hsr>($f95`7=Yg84kuv}BdH&~rf9HNM_N(oD#Qe(-wmZJ|1Iy7OQEs5#b6bJ194`*ru~w-l^6jsQ'
         'K!wosuXNg?xLF+juz0_i%EuiQMItHWNWT4Ynq*#@C1P;O7AJB;*kXU?u6S-_`O002Vx20_S`c2G_(jf~6_IEaN4U?#o7BEp*rWF7'
         '&x#L=e5>Q8X`)(LDs=H<*mMJq>sdv<<*X8c-(#cU_-^VtDe@*K%1+tHpCYbO6$<NeC-P(xN9sMeCv@o44cmp>CU*cQBgl!|1*gkB'

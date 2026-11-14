@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/leos_cyphal_types/leos/sensors/1212.GeigerCounter.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:49.382167 UTC
+# Generated at:  2026-11-14 09:05:20.150425 UTC
 # Is deprecated: no
 # Fixed port ID: 1212
 # Full name:     leos.sensors.GeigerCounter
@@ -138,7 +138,7 @@ class GeigerCounter_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY82`BJs0{^vCZEMs(5WeEIR_jZ(YC#1>P%7BORun&03yQ|-*;+wGmQ6C=E^c<i?&i1%g8iT<EGTsSH~tiVjI+sUJ@r0%A1=wx'
+        'ABzY8P$c+j0{^vCZEMs(5WeEIR_jZ(YC#1>P%7BORun&03yQ|-*;+wGmQ6C=E^c<i?&i1%g8iT<EGTsSH~tiVjI+sUJ@r0%A1=wx'
         '%(FAkJTvdQU%yXxnx8vY*15?=L=0$71%E?R0TIbmQ7XeNcz1Zq>MFC9h9`9ie%D{#@o)W-n<kPLXg@7LnaF@NN}K2|@IL5uRY?ol'
         'yIC>-ZMc%2b=>}^qxW5(bdsqLe#g5xLao(2tt=S-(of3gmy>tXcQ}ZAFOP#Hr<M{Ml5=M!glkP}?-rj@JjIg-Ap4fx3a8^m9VQ^4'
         '0BJ{f6VfR)FSz9c^jO%IhW91p_po9teH?F&q}&qGT<4QDOg5v&l0xO+*=cvG_Y)|DMeAtW2&O>Ld%x-331TdjIo0{^Kp(5r9YCa#'

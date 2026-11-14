@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/metatransport/can/RTR.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:53.263811 UTC
+# Generated at:  2026-11-14 09:05:22.664228 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.metatransport.can.RTR
@@ -115,7 +115,7 @@ class RTR_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84JYtw0{`ur?QR^^8OQhCyMB#h43y@Sr!5U93Eqv9G=)+qNdOUT6GC24q(VotJI6j_&CYCRW-Xfv2|lz+s!?l^sf5~(e1J<p'
+        'ABzY8QY83l0{`ur?QR^^8OQhCyMB#h43y@Sr!5U93Eqv9G=)+qNdOUT6GC24q(VotJI6j_&CYCRW-Xfv2|lz+s!?l^sf5~(e1J<p'
         '>J4xS^bT?b6;i+SnVtWM*K3<vmD*J5MvDK(^R{QsoZoMsv+Iv4fBO6B!th`6Y=7H{9It6bDs*kn{lM;cs%dqDUO$N3Sf$C_tvDQX'
         '<3XryZ}(ODAU*YQ`e7=Qs^!}~-hX0XZ+30J*;BC{hqfQ}gD`GpTW;RInI?5>Q-zTm_^B==Q}3evAZ-`g#owhLr^$?E$8qR(2C<6L'
         '_tV3A^yr{8slMqd&)MzCwB^{bZN*vl_(d9be13^Noz>Ok<e}ZX6n0$R67xw{Ur+UvZkWF5+4uR}W4OkWE<L*1=|it}*^bnauXxza'

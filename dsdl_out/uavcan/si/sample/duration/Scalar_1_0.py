@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/si/sample/duration/Scalar.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:52.887222 UTC
+# Generated at:  2026-11-14 09:05:22.436836 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.si.sample.duration.Scalar
@@ -151,7 +151,7 @@ class Scalar_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY83@7kv0{^{NZEqdL6~1=-?!<|4-Ux3K3W?q3?gfL5OG^tFrBp*MQ5>jSm2PKu$9G2A-Pz8}+P+AYid0Zst;9;%O8f+V0zUz%'
+        'ABzY8QY83l0{^{NZEqdL6~1=-?!<|4-Ux3K3W?q3?gfL5OG^tFrBp*MQ5>jSm2PKu$9G2A-Pz8}+P+AYid0Zst;9;%O8f+V0zUz%'
         's#-oEq5cBYU%<EYoZZ=LJ0u_JmF(x-c{%5qbIzPI_b(HF|9YWQe~M?aVPvA%^9|RM#qvWI#N6{km1N3D%d6tlmeqM^bIorLGhW@R'
         'Rz9l!TrC%qe##P<Cpp^<S?U?-8J1+QJIXb)Ql;Kj$YQ3eV#eR)+Q3L9I>q$+PQF*sG1~d0`lu@AeP*qeL2kLJJ^<y9pfy@m6_eK`'
         'kE266bAH4u^DS}|<ISL$EG|2CRwmrr8m6JpDwQAd=r#-(3xq2%EoNIL;v`rXXWaIsNAbwCOr({&z+>sX)W|`~qhF_%54b+=q<KG('

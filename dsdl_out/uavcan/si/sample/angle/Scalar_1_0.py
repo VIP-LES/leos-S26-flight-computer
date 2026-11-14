@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/si/sample/angle/Scalar.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:52.924853 UTC
+# Generated at:  2026-11-14 09:05:22.460229 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.si.sample.angle.Scalar
@@ -151,7 +151,7 @@ class Scalar_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY83@7kv0{^{NZExJh5kAR!mn~b7-{QQj)6|w)A1_fNMNOMFi2^sp){0>}saiB;m*nbpVUo-4E+t)n0`-RkRzaWy%mVod`3d<6'
+        'ABzY8QY83l0{^{NZExJh5kAR!mn~b7-{QQj)6|w)A1_fNMNOMFi2^sp){0>}saiB;m*nbpVUo-4E+t)n0`-RkRzaWy%mVod`3d<6'
         '0otPNx1hfu=r71OcZOWvogDjPDnR$l?aR#U%<MCJf13L1-<LY|U-3dVh)fiFzTsN3Sbofcn0tPxl1v$Cc~zXcZFL^nT=P4Fj8_k;'
         'wR_bctJPxKPgw%<&*f}CWT|JQXIPTKZkG1p^LEH$rmJGk-{;y$l~$rt%zo(P2Nj*5olmQKRk7$ZYqbn=%T4tWXnulE!&Ox=eO>Z6'
         '8u_x|N6a$cqJv_x85GmSW#^ie3HUQeL!nhFKjzUL7%&#Rt;DRDZ#@ww!MZr(wy!+Nk4(!%TDcE?tbC9f*-v@&i`4Qy*T*BY=m*mJ'

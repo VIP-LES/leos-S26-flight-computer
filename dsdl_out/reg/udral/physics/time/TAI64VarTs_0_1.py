@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/physics/time/TAI64VarTs.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:54.347883 UTC
+# Generated at:  2026-11-14 09:05:23.368766 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.physics.time.TAI64VarTs
@@ -151,7 +151,7 @@ class TAI64VarTs_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84kz$x0{_hz?{6H%^_;}9eF-7KgzzK4gi>O+zCGJX94C}EAv6VTW75RX6q+n^yJOFo-JNA-*7hMGfhww`TB$3st@0=EC-5gA'
+        'ABzY8QzZCm0{_hz?{6H%^_;}9eF-7KgzzK4gi>O+zCGJX94C}EAv6VTW75RX6q+n^yJOFo-JNA-*7hMGfhww`TB$3st@0=EC-5gA'
         'RaNOX`mvvi`WMho^u5{HyK{cDr4oXZeQ$2&?R#(D@3-&o`NJ1STJ}>so%JIf#a^J95;PX?(q7EGAe2cawJ@wI9=K{$9-3US)qcjR'
         'kE+=Zs`sjyVmwG`0_VpRTlexv(b&s)UyD$CMkLHzJ^#wm$=9h`)m1SWY%-;VOe@|hCSG^zk1D_AkNvj#peptS)EFgtxna7x4%F`>'
         '*8r<3#xDvMM?-nqK|~D=3<}A2)th|0IF{4RkfyavSNmzml}yFEELw#PZD^8Je1cE;V}1)I;roF*Kj<ExzMmYK5{WQk6XckFE!AQ@'

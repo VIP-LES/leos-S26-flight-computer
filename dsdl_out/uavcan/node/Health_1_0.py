@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/node/Health.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:53.082899 UTC
+# Generated at:  2026-11-14 09:05:22.549045 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.node.Health
@@ -111,7 +111,7 @@ class Health_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84JYtw0{^vE?{6D57|yzN?K&8YPD3EUJPA;%k-N2peb^^Lr$I@VR&6(a30b~7Uu^K%hwZyGNJ#7hlPXyPspfCs@8dt<^<C1Y'
+        'ABzY8QY83l0{^vE?{6D57|yzN?K&8YPD3EUJPA;%k-N2peb^^Lr$I@VR&6(a30b~7Uu^K%hwZyGNJ#7hlPXyPspfCs@8dt<^<C1Y'
         '9RuwHk&-xh?bpxqyua?3OMm>e*lAwwRyod0CL(O8=0xzHNFr#2Q&p78a7(>=b>HeLwUwp^<C6Mgzxvew>{r}8mZSjt8x^TjA|t6X'
         '8huWQu*|zfTvKhhlAd+k!jsAR*!M5=JJ0-6@2+BEt>#H(sqx=|yB7dC+2!5*Lrz6@3SbFm#1d=+suvwEH7~g3HSAb^EDaw@nr%r-'
         'hg6?sa}_7tVnO8);P>aic}k4M1(5RWhP$~tbrg<8n_znsOu(q~tKakP1~!(+jOc9E(NUGKc{g7ZQ2~NWI8&*29S{FrbBmiwhBNjA'

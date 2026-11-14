@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/leos_cyphal_types/leos/aggregate/GeigerAggregate.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:49.321210 UTC
+# Generated at:  2026-11-14 09:05:20.122960 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     leos.aggregate.GeigerAggregate
@@ -106,7 +106,7 @@ class GeigerAggregate_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY82`BJs0{^vB-)j^x5UzN&wbg39qHlWoAXT_s^}$#12a24nhqb;*$Zn>aKsE_U_P7%Y_Cc`_Q0Vyon(Vc`deTRiWjDjje3@_N'
+        'ABzY8P$c+j0{^vB-)j^x5UzN&wbg39qHlWoAXT_s^}$#12a24nhqb;*$Zn>aKsE_U_P7%Y_Cc`_Q0Vyon(Vc`deTRiWjDjje3@_N'
         'o3EYUwzJSa;f|Rw$7DtvSV5)uLJJ8QDRphM6CN;J-SM_5ePiL{!~h=Qg9F^h&9F!mt)u_81nn|fRTe7hA$tR&0{i^L#;{CAV4ctk'
         '`9fIwbbLO-!NTCecRawbN~rf%6paUmpYgn!PJ=Kkz7`<atd<qRsHeoI0?$h~R@B0aQH<#BDkmxh?5*+;i~XC}Dk+2~5>(|m4tf#1'
         'q|TFCGeEu(ZVpd?Qd;&h`nHlQ5&DK7Fl-R#sbbW!vp_$Zf-i;}rEZjWM5y?Bup=rlbO_TWh6QX28oFniL5j(=$@|EAeBH&;7#Is>'

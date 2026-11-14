@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/primitive/scalar/Natural32.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:52.527231 UTC
+# Generated at:  2026-11-14 09:05:22.240479 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.primitive.scalar.Natural32
@@ -106,7 +106,7 @@ class Natural32_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY83@7kv0{^vCQEL=25I*s))>f;fMIXKTAXT_st>CjL3Uc;5tokM)yO~}B+0Bw<k2|4YA6hH~6gvK2C%5fgt@P1-*iCkJzI^k|'
+        'ABzY8QY83l0{^vCQEL=25I*s))>f;fMIXKTAXT_st>CjL3Uc;5tokM)yO~}B+0Bw<k2|4YA6hH~6gvK2C%5fgt@P1-*iCkJzI^k|'
         'H~YQ)`?%ejUEx7B6;9}cIk1Xr^^Ip55|*2yGERBGaC^_&I`_4OPtywU6dxbr0d9v5D|tcjt(uQ>UM7`Qh4N|)iOad>HW_eA;`;dx'
         'hGjMe>y#-`w!)1sXX{h!U+cGy@eso*<KA19)gByv#j9w|Kf=&?t3ZndofRgy=gdcrSEbJ>V%YdxIyEXmyemD7!2Vs^D$A5-8p@HE'
         '*zXc}&Yfq45rA?t+#8+)#kAx##dc$e3ThqUM+}?Hd0q-`#YLbWbtXHZGv>M`25lxxj-iEh#>2*i`dKz@q&+~{mFte!2&gRN+=IZA'

@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/node/IOStatistics.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:53.094696 UTC
+# Generated at:  2026-11-14 09:05:22.555532 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.node.IOStatistics
@@ -160,7 +160,7 @@ class IOStatistics_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84JYtw0{`vS-EQ2*83y2$v|6uLYiadkS(Y7}mK|GewY$!r>m+THCO}|=w!>Cw;Q}oP{){vPxa5W$O0z*)GzTqWfItbD1%g~b'
+        'ABzY8QY83l0{`vS-EQ2*83y2$v|6uLYiadkS(Y7}mK|GewY$!r>m+THCO}|=w!>Cw;Q}oP{){vPxa5W$O0z*)GzTqWfItbD1%g~b'
         'E+LoT;~wP_atS%iH{?5(qC`z{&@&m3-`VAG_zh<sa{tl%&$G2g^)J6Np7^OB4(yaAffEKFIc~@Xwil1aaT*9#=4W?Al6fLa*awp_'
         'E1#CPJ}LiJZsoIf<c#R}dgknVPBe&OpAGK6zatzGq$2RrGH=`aEJ=enDtRM6^Cz^QmS)48`d9f$na|sf5J})>f~DnOY0wkOdETqc'
         'XWt80=pUBRv3*B4wotX5bow|6Mu7<SsmID6qcqryn14SKY>y@1ozuMS2Eq<mv?q9Js=+-c750dxR`S(+&C&y@(+2O-v4`pq&1mYM'

@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/physics/kinematics/geodetic/PoseVar.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:54.555319 UTC
+# Generated at:  2026-11-14 09:05:23.479832 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.physics.kinematics.geodetic.PoseVar
@@ -166,7 +166,7 @@ class PoseVar_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84kz$x0{`vXZ*SYi9S3k)vSe9S9NDoG*GUt$^-{-;r8M1IH~Z6c?XnE4Q@3e5H(g4cq>GO#MXDs_*ujc2TQ{Twv2rK}1lSws'
+        'ABzY8QzZCm0{`vXZ*SYi9S3k)vSe9S9NDoG*GUt$^-{-;r8M1IH~Z6c?XnE4Q@3e5H(g4cq>GO#MXDs_*ujc2TQ{Twv2rK}1lSws'
         'OXx%GS)cDoAM8P~N5uy0$uKM!24r{S_avFIn|46E6qSJZcNEDZdDQ3bc*ppozkg>%i9f-y_IAT<m=)cnjzLW08mXDIqSx(K+jb3)'
         'M!~*|p3|v&9f!WO-KNp|(TVHPThU^W(=F2C>z5t6QRy@sVpiI0+coNL<qgB4E#isf2DKZMrz&f<OJ5;Q6cqGL>bQn&MNA3CUP1c('
         'NK>?tUq{!YU_vLJ=NPq)N8RW$KhhrO*xM=!a_0<cHu~pQ)EmSjx+hMUWs)yhE?D~fry8*_HZD(zmH26}GV(bvkmDntH%G(rJ}b+;'

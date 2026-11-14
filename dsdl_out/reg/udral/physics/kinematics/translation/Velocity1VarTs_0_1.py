@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/physics/kinematics/translation/Velocity1VarTs.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:54.508396 UTC
+# Generated at:  2026-11-14 09:05:23.456049 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.physics.kinematics.translation.Velocity1VarTs
@@ -151,7 +151,7 @@ class Velocity1VarTs_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84kz$x0{^{O-)|g89X}^=Y@ZXyiSw%|rPC5pyX1CbQzs^+KnaafCUK%T2~knAn%y1WOtQDT%*>vBl`2t*q6V$hm9j{c_y_vV'
+        'ABzY8QzZCm0{^{O-)|g89X}^=Y@ZXyiSw%|rPC5pyX1CbQzs^+KnaafCUK%T2~knAn%y1WOtQDT%*>vBl`2t*q6V$hm9j{c_y_vV'
         'OaFvQJn?`C5)z1~ibtM`gcQEt-PyZynt*r+mVBS@?aY3^-}(NY`}v+<|MpO;`paKT2cZrl$J1O%7RmRRA92SEl3to<X?U6M-!Li*'
         'Os4paLCVVq<<bY``{iOj>BX!E>*o~jI$5Y#<fLMtWuTpVGUh#IkTi<LIs!V0om)Ig0%-=zx0t%2%Y54FbERRW6s>&fmZcw*v_&U='
         'S$<IFvmP@>Nk21Om+ykir)WFeRpyfyC6B_9mTfO&hIs~67rW|*VlpQg>jx}$v~)D<rNE?bm2)-%7BN+dDKSGQXbTk)`#`vuw{I_u'

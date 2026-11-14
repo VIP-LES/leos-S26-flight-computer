@@ -23,6 +23,7 @@ import asyncio
 from pycyphal.application import make_node, NodeInfo
 from pycyphal.transport.can import CANTransport
 from pycyphal.transport.can.media.socketcan import SocketCANMedia
+from datetime import datetime
 
 # fc.__init__ ensures dsdl_out is on sys.path
 import fc  # noqa: F401
@@ -71,6 +72,7 @@ async def run() -> None:
     log = LogWriter()
     await log.open()
 
+    print(LowRate_0_1)
     # ── Subscribers ──────────────────────────────────────────────────────
     agg_sub = node.make_subscriber(LowRate_0_1, PORT_LOW_AGG)
     efm_sub = node.make_subscriber(EFM_0_1, PORT_EFM)
@@ -80,6 +82,10 @@ async def run() -> None:
         async for msg, _transfer in agg_sub:
             payload = dsdl.to_builtin(msg)
             log.write(kind=RECORD_KIND_LOW_AGG, port_id=PORT_LOW_AGG, payload=payload)
+
+    geiger_filename = datetime.now().strftime(
+        "logs/geiger_%Y%m%d_%H%M%S.bin"
+    )
 
     async def _log_geiger():
         queue = asyncio.Queue()
@@ -92,7 +98,7 @@ async def run() -> None:
         buffer = bytearray()
 
         try:
-            with open("logs/geiger.bin", "ab") as f:
+            with open(geiger_filename, "ab") as f:
                 while True:
                     timed_out = False
 
@@ -128,13 +134,18 @@ async def run() -> None:
 
         async def receiver():
             async for msg, _transfer in efm_sub:
+                print(f"Efm message! {msg}")
                 await queue.put(msg)
 
         receiver_task = asyncio.create_task(receiver())
         buffer = bytearray()
 
+        efm_filename = datetime.now().strftime(
+            "logs/efm_%Y%m%d_%H%M%S.bin"
+        )
+
         try:
-            with open("logs/efm.bin", "ab") as f:
+            with open(efm_filename, "ab") as f:
                 while True:
                     timed_out = False
 
@@ -145,22 +156,31 @@ async def run() -> None:
                         )
 
                         if msg.samples is not None:
-                            batch = msg.samples
-
-                            values = [
-                                sum(batch.efm0_diff) / 4.0,
-                                sum(batch.efm1_diff) / 4.0,
-                            ]
-
-                            for idx, value in enumerate(values):
+                            for sample in msg.samples.readings:
                                 buffer.extend(
                                     struct.pack(
-                                        "<Q B f",
-                                        batch.timestamp_us,
-                                        idx,
-                                        value,
+                                        "<BQIiBB",
+                                        0,
+                                        sample.timestamp_us,
+                                        sample.sequence,
+                                        sample.raw,
+                                        sample.channel,
+                                        sample.hall,
                                     )
                                 )
+
+                        elif msg.hall_event is not None:
+                            event = msg.hall_event
+
+                            buffer.extend(
+                                struct.pack(
+                                    "<BQBB",
+                                    1,
+                                    event.timestamp_us,
+                                    event.efm_index,
+                                    int(event.rising),
+                                )
+                            )
 
                     except asyncio.TimeoutError:
                         timed_out = True
@@ -172,10 +192,13 @@ async def run() -> None:
 
         finally:
             receiver_task.cancel()
-            await asyncio.gather(receiver_task, return_exceptions=True)
+            await asyncio.gather(
+                receiver_task,
+                return_exceptions=True,
+            )
 
             if buffer:
-                with open("logs/efm.bin", "ab") as f:
+                with open(efm_filename, "ab") as f:
                     f.write(buffer)
                     f.flush()
 

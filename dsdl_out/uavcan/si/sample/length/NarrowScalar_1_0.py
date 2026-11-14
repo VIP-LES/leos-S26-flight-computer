@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/si/sample/length/NarrowScalar.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:52.939849 UTC
+# Generated at:  2026-11-14 09:05:22.469208 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.si.sample.length.NarrowScalar
@@ -151,7 +151,7 @@ class NarrowScalar_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY83@7kv0{^{NTW{UQ5td}#CChT;Tb$cEb#1Bj;YpN8QPZZmC~#eDbz)df>K0AeCAm7gFv(?imq$7Q3N#N1EPy}>m<93^@)PnC'
+        'ABzY8QY83l0{^{NTW{UQ5td}#CChT;Tb$cEb#1Bj;YpN8QPZZmC~#eDbz)df>K0AeCAm7gFv(?imq$7Q3N#N1EPy}>m<93^@)PnC'
         '0u)8lx1djb4EhW5*3OX2BgwHJQv=pF+{?`D%+5D^{yh2Dua?H@f5i*gFfvi>`G#xBV)+pZV($5&N-|}n<yCQd*Xlg9x#o9=8Lu8z'
         'YadsCs#c3BKV=EbU(MMdWT|JQXIPTK?wF^2E4&`lTJ7(KEM~eYX8i%zMyj+DW5vt|PJUR?aXR*C^>I}!_{>@@gWPgceFz4g;M!<a'
         'RZQKKJdTcBn)f4SnQzfgG0_Z)sp5+B(8`2+yTddTTBY(M9^HijW5MZ4%!s+x6R`-^#j@MJ@+3bpEfZ<w0Q^{aKQ*$S^5~bT<$bPC'

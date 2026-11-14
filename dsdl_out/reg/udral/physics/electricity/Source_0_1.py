@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/physics/electricity/Source.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:54.366146 UTC
+# Generated at:  2026-11-14 09:05:23.378994 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.physics.electricity.Source
@@ -186,7 +186,7 @@ class Source_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84kz$x0{_)mTaO$^86C&oU3(l7TMi&05G9DL*|6K4faGwMY#dC`I-6D2N=OvasqU_ss<^tV>8hUHL9%2&0Cv=fNN)HE@P?FE'
+        'ABzY8QzZCm0{_)mTaO$^86C&oU3(l7TMi&05G9DL*|6K4faGwMY#dC`I-6D2N=OvasqU_ss<^tV>8hUHL9%2&0Cv=fNN)HE@P?FE'
         'g!04_PdvjLLi`QqR8{xfcE<#S4Xm^~J$3mm=R4n}_x7n@{q>oi`>DTJOj4c7AkwT9REnR_Sh65WR8}Z03~TC7?VGYnOjWWQlY%w('
         'o6S4Tt!7ZKMLEr||7^)dL6w$N1_hsJk?4R)mY7l`!c2mFRh0>josPz=)I#MA@6{Wxx6k*Ro!-ugpEY-y`fNlEF2$8$y7>_ltT1hQ'
         's;Sqm2`1B-N&P6LhDOHP$)E6xe69ZS!!6uX2dr%P20zo;!k>hGey$a8VNTS=ijEVS2U-MGF3eO;lvHKOaue()RMJ-3iJe|2Z6<7$'

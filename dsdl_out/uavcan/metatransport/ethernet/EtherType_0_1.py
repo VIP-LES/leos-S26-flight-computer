@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/metatransport/ethernet/EtherType.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:53.268217 UTC
+# Generated at:  2026-11-14 09:05:22.667266 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.metatransport.ethernet.EtherType
@@ -110,7 +110,7 @@ class EtherType_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84JYtw0{^vCU5^_z6b<Tbnr>m)YO5lUpf2L0T`4nAK_y<0wyUkQ3LBzq=^L^<<D1yXGalKVC_zG^4^&iG0%^_9;3x54xSmXs'
+        'ABzY8QY83l0{^vCU5^_z6b<Tbnr>m)YO5lUpf2L0T`4nAK_y<0wyUkQ3LBzq=^L^<<D1yXGalKVC_zG^4^&iG0%^_9;3x54xSmXs'
         '-NFj-z&y-&eC^}od(OQ-Zv8&%cACfEtrpyJl~4;tG9|xfnSzAox~R034uXH<%$YiOwSlLL3c`7K@I3qw?)z<8vI65D*KC%vGAY0@'
         'XIN<~ZCnCQfGNQx$8pf?^gTKQW2G*G==kf;+VOc9bOx`z2+xDRNtts-X0-zwzQr@HV7Fcs{Pq(Gif>r$P|h5qt~v0E?Uj**baI9('
         '_P;5uoR+{(N(a-H=o;)M&7`9W%Bd4!u!rC|vyK*;LlC$9ozV&?ZcC0Zb{a$RMn8pd@VBXTtmMq_i$Fiunb`K*Gp1@}utmAfgYN{K'

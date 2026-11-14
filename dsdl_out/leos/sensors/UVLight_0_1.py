@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/leos_cyphal_types/leos/sensors/1203.UVLight.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:49.435891 UTC
+# Generated at:  2026-11-14 09:05:20.176713 UTC
 # Is deprecated: no
 # Fixed port ID: 1203
 # Full name:     leos.sensors.UVLight
@@ -165,7 +165,7 @@ class UVLight_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY82`BJs0{`t=No*VE73S=e<%NznW%W35Vmh%%$=Q@$N!nEH%a;mq9O%$=G$P0P$Dv4qGZds20hB`vxfq}WcnavKqmBZ4(NRYo'
+        'ABzY8P$c+j0{`t=No*VE73S=e<%NznW%W35Vmh%%$=Q@$N!nEH%a;mq9O%$=G$P0P$Dv4qGZds20hB`vxfq}WcnavKqmBZ4(NRYo'
         'b<|OZrd3;@5Q-kuQ~Q3BT4+g$H`#4s9cKC8`hV|nsBieD^gm2rOf~+Zv(?FBP%Pz~z^nOg$^Vr*Qu1<6p)yvj1b*lx(UBi{C4Y=B'
         'i=Rzaz2s(c@$2NPBpaEIUoLyKM5Ll4SHfDo5Y}s6yNcnI-7$7?vgB2QT;P?1N-fA;{rqEpRD?;CcE-J0;8)7hhxK{u`es5YQhu9!'
         'okX3E8-_K1q#k-f@&!BGC)+KpBr-noy;5;Ig+or!4P7Ucc?qkzC=Nwu>h5^KE$6B=xix>>%kdWc@@OIsi=(7aO2!w*zevQXmQ7dm'

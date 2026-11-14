@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/time/510.GetSynchronizationMasterInfo.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:52.971588 UTC
+# Generated at:  2026-11-14 09:05:22.484965 UTC
 # Is deprecated: no
 # Fixed port ID: 510
 # Full name:     uavcan.time.GetSynchronizationMasterInfo
@@ -85,7 +85,7 @@ class GetSynchronizationMasterInfo_0_1:
         # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
         # is not dependent on PyDSDL.
         _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-            'ABzY83@7kv0{^{L-)|f>5WYYl>7^~LN)uENH7`&^vYS-=ctQfws)|C=D1nNX%JQx!XH&1e*xpMHDN_3YN+nA~s(I&6WxRWVyR^v*'
+            'ABzY8QY83l0{^{L-)|f>5WYYl>7^~LN)uENH7`&^vYS-=ctQfws)|C=D1nNX%JQx!XH&1e*xpMHDN_3YN+nA~s(I&6WxRWVyR^v*'
             'qNn?@zVUoB^ZA?c)7d}Ge6M|l+x3V$t}^PtN~YwmtWc2A(p0r^(nAba?tzjOKJp(%HN+S3(`WH0-U)A0sWsRrdg02Rw@v9A3)5TP'
             'qMB6*vD&a<$#mvr1=$1edm~*6Ycxjl(&#PbJlGArZ?awZr2*$-n5RRq4vh(a?$P-9McnLd&io#q#jrq`_f{5-2Nxg5aARUki%}Q('
             'DDC4=TPPV85TA#ubYC6<r?s)3N*=evb?QuGOF)AHS~D+VxSD>HEHbK0$y5xNc94z3on(9w!$~eo1-WBY?gX>I^MUmFP}VC7T&}>l'
@@ -261,7 +261,7 @@ class GetSynchronizationMasterInfo_0_1:
         # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
         # is not dependent on PyDSDL.
         _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-            'ABzY83@7kv0{_)n&2JmW6{iy?R@RA=z=@NfAK9cu;~><MqWmGbNDD=_999-3h;kF8a27-EkTcbCXEQS^nnnU7NE_J27IorHkz)@<'
+            'ABzY8QY83l0{_)n&2JmW6{iy?R@RA=z=@NfAK9cu;~><MqWmGbNDD=_999-3h;kF8a27-EkTcbCXEQS^nnnU7NE_J27IorHkz)@<'
             '4?XqJOK&~3#{&H$S`_I2kiIvwB!{wOH$@Y)glsM6<IS5lzxR8;S-pSs(|>-gVm|rv=_pcB9E6HWPGWw8bYdEWT`@?7;+huuV;5=6'
             '2k;o}j8a<MDPI1dc&|8}KOFKTp|W6={IRx{SyyM0&JKAfOvnICEM#P_OOinI0Szuw-5w=fCPf0PX)cltqBNDwq$h%Hs#1|Cm@^md'
             'QK_I87dZCA^7&4&URgi#QSm{M9}kJvl6NvqRdEegJ7g=9QAPgH8mDnI_0J0<qDiRH>BFX{5;xEHV8kP9u^@VOi^szb*I`VPzGlU`'
@@ -306,7 +306,7 @@ class GetSynchronizationMasterInfo_0_1:
 
     _FIXED_PORT_ID_ = 510
     _MODEL_: _pydsdl_.ServiceType = _restore_constant_(
-        'ABzY83@7kv0{`7w&2JmW6{iy=l9>-XaN-1Qf-Dj@Q4orxDBF_U4?vM6hml1ImfWNX-0hM()Qr5`+04v}rV#@PineyUX#->n6et4p'
+        'ABzY8QY83l0{`7w&2JmW6{iy=l9>-XaN-1Qf-Dj@Q4orxDBF_U4?vM6hml1ImfWNX-0hM()Qr5`+04v}rV#@PineyUX#->n6et4p'
         '(nEvx&_fUHq3EF~`bYFwq_-Z59(qdp-puZDsISCHV+186iky!(Z{EE3d%riUH^+W@<EfH<B~L~JU;07Sl|(QvVAs8NK&ozs_aZKt'
         'B588p1`#`~LpBEyN#9MMdn>(>P9_hyg1jCRsa%Eaw3Iw>o&>B1Q~c49_qr?$iO@qfl!!Yj7Q2Mq<Az=jma50zPR9$YiuFkK0#O@-'
         'utNn8K`X_0xavtoL^JI2>Ls&ynoPJmL`djF`QzWrKEIo;lva*>KYa_-cRi&9YsZSn^h%nXu)e$Pfm!(mj`K+*NXLT>q_>g>-7dRE'

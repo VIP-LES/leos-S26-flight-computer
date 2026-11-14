@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/primitive/Unstructured.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:52.506903 UTC
+# Generated at:  2026-11-14 09:05:22.227258 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.primitive.Unstructured
@@ -151,7 +151,7 @@ class Unstructured_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY83@7kv0{`t>OKcn06(#5IKW!(mV#o0$u^lF{NybSW=3Ax#0u{G6VVySMrWg&$v1U?=B!)wmDiA<fv|xY%I)JBumRf2TEw$8A'
+        'ABzY8QY83l0{`t>OKcn06(#5IKW!(mV#o0$u^lF{NybSW=3Ax#0u{G6VVySMrWg&$v1U?=B!)wmDiA<fv|xY%I)JBumRf2TEw$8A'
         'O99<zsil@$a@qUHp-74!Nz|`NXc(6C?!D)pci*vWzvH(c{O7-4g_=LyJLUO&C0~eX6~nglg7ptQTQFi;t~6IJRV>Hw-Ams(b~Wcz'
         'ZR5}LWy62&zxAX4gCBK8t*FmY{B~7;meY%|vTe;-j`hrl{iRrGm*jm{(ViK0#VQqjGvvzO1)o3nAq=5^`9J#Z1x<Gx+salQqvHS7'
         'A4X|6$#=!CETfR`P&u#Vbw}46#?QSqq};akdEdS9oldK?@<*dM>zH4#)!uzw(u{&JXB3?PZwQ^;?fUL@+ORcSH1dBaI>xMF_u^g9'

@@ -37,10 +37,14 @@ CAN_MTU = 64  # CAN FD
 NODE_ID_TIME_MASTER = 10
 NODE_ID_LOW_AGG     = 11
 NODE_ID_LOGGER      = 12
+NODE_ID_CUTDOWN     = 13
+NODE_ID_SENSOR      = 21
+NODE_ID_POWER       = 22
 
 NODE_NAME_TIME_MASTER = "leos.time_master"
 NODE_NAME_LOW_AGG     = "leos.lowrate_agg"
 NODE_NAME_LOGGER      = "leos.logger"
+NODE_NAME_CUTDOWN     = "leos.cutdown"
 
 # ── Fixed rates (Hz) ────────────────────────────────────────────────────────
 LOWRATE_AGG_HZ = 1
@@ -52,8 +56,11 @@ STALE_MS = 2000
 # ── DSDL type names ─────────────────────────────────────────────────────────
 LOWRATE_DSDL = "leos.aggregate.LowRate_0_1"
 GPS_FIX_DSDL = "leos.gps.Fix_0_1"
-EFM_DSDL = "leos.efm.EFM_0_1"
+EFM_DSDL = "leos.efm.EFM_0_2"
 GEIGER_COUNTER_DSDL = "leos.sensors.GeigerCounter_0_1"
+RADIO_CUTDOWN_DSDL = "leos.cutdown.RadioCutdown_0_1"
+RELAY_DSDL = "leos.relays.Relays_1_0"
+VARAIBLE_VOLTAGE_DSDL = "leos.power.VariableVoltage_0_1"
 
 # Aggregate inputs. Keep this aligned with leos.aggregate.LowRate.
 SENSORS = [
@@ -68,6 +75,9 @@ PORT_LOW_AGG = fixed_port_id(LOWRATE_DSDL)
 PORT_GPS_FIX = fixed_port_id(GPS_FIX_DSDL)
 PORT_EFM = fixed_port_id(EFM_DSDL)
 PORT_GEIGER_COUNTER = fixed_port_id(GEIGER_COUNTER_DSDL)
+PORT_RADIO_CUTDOWN = fixed_port_id(RADIO_CUTDOWN_DSDL)
+PORT_RELAY = fixed_port_id(RELAY_DSDL)
+PORT_VARIABLE_VOLTAGE = fixed_port_id(VARAIBLE_VOLTAGE_DSDL)
 SENSOR_PORTS = [
     (fixed_port_id(dsdl_fqn), dsdl_fqn, field_name) for dsdl_fqn, field_name in SENSORS
 ]

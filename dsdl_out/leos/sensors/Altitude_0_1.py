@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/leos_cyphal_types/leos/sensors/1206.Altitude.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:49.359963 UTC
+# Generated at:  2026-11-14 09:05:20.139160 UTC
 # Is deprecated: no
 # Fixed port ID: 1206
 # Full name:     leos.sensors.Altitude
@@ -174,7 +174,7 @@ class Altitude_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY82`BJs0{`t=No*VE73S>JVw;L%n^`?coS055Qg$4NNt{GUT37AMa|t^Rbf`NTl4Jd&jE2O_(2!aLP!28RV1N#g3815nI_lKw'
+        'ABzY8P$c+j0{`t=No*VE73S>JVw;L%n^`?coS055Qg$4NNt{GUT37AMa|t^Rbf`NTl4Jd&jE2O_(2!aLP!28RV1N#g3815nI_lKw'
         'sH2WL>Zn80sx43mMGxx9eLsg<sKxOnyG<lO!{Ptd|GhUe{K#)Y{`OCAq?&)>$@+NJuR3|dw>;Z)?BAGW$I2U(+GxGz+kq8_hkjx?'
         '_9&fJKO3)G@i+0Aui`J`T&Nnh>snsSQsJR%f!C-64bN&<Q4H4{B^SpWtLEo@%k^uXpZ~}S?4VJl^|W!z@_f7Iawpp7t@CeUNP+PC'
         '_^UYVGRz?G>~bTp{P+fW+#}r$tvFOJ+m=(^%%Rh$nt^EqJTayvi>xy|(J*gSOgCTm_}=VWR-X1?yTdW-W`{w56pzn(Zp7?Z%O)E>'

@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/physics/kinematics/geodetic/Point.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:54.521630 UTC
+# Generated at:  2026-11-14 09:05:23.463860 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.physics.kinematics.geodetic.Point
@@ -163,7 +163,7 @@ class Point_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84kz$x0{_)kTW{4y5YGLckdP4W#4Rl(h1i6)6zGMt0gALFjR<Oy5LkQcO?F!!+t};$1PKYGwhEOcR$?ph6Zi={(l;KfKJm~W'
+        'ABzY8QzZCm0{_)kTW{4y5YGLckdP4W#4Rl(h1i6)6zGMt0gALFjR<Oy5LkQcO?F!!+t};$1PKYGwhEOcR$?ph6Zi={(l;KfKJm~W'
         'z(b|J^48AS>zn|M`h?mZDfwo1W@mT4_0G)gj-P%TY$<;EM7-vweqg&PO9TzXO<D_>?Rrr?j#43+&Igxdl6f*q*yXjD>HB)>j=rTQ'
         '^G-LUb<iJ4*ovL`2@UL+ucg9E?QcZL>Qth*!Xlr6WG_Y{lsfNmS6PyZDAc?q@BY%r_cduDtv~2HI`4O>l!>TilBN0@?6buQH>`Bt'
         'd0w!<Z=S5r^{J$;#N%$YJWfPiNU;hQz2}37$`^y{cWXkr0Si|o*JKu4dNh@89fHw(EFWL2mg6#e4s`RV!Z^Oymvlbnrjmv}P5jM{'

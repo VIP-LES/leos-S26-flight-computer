@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/pnp/cluster/Entry.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:53.438663 UTC
+# Generated at:  2026-11-14 09:05:22.774456 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.pnp.cluster.Entry
@@ -201,7 +201,7 @@ class Entry_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84JYtw0{`up%a0Vt9mi*8=e4sB3U*nR_s@XILcBddFy7$2un7Tmz$>sVU#wQoOzl?Vp6*F^&$4U95<Vn?sHL<-NAj^x5y~NI'
+        'ABzY8QY83l0{`up%a0Vt9mi*8=e4sB3U*nR_s@XILcBddFy7$2un7Tmz$>sVU#wQoOzl?Vp6*F^&$4U95<Vn?sHL<-NAj^x5y~NI'
         '`4FKbk`GZNE2l`g*#Ck51Rqm1^DTDiu#pwX$^|6&)l5I8s=7a)Zx#2ezx(6S(&$foe6ZCEd#+)HJaBB+`OxmT+_1WSf8d8s#M5}@'
         'P81Bg(J<g|Zw+|*C_VFW`cb+R*DTNO%j1hfd!uW6#=sjGU3VBpJTQLhMZs1YH?0jGgpTi}q7*mYMf*`|md(<y(~r}5%Ce&<a5}??'
         'hw1zBrn_|K=~-!9yXJ7Wx804F)w3hpid5fryL=EheJ64@<Qa4Cc%ifI@!kzD;_Ezkc1%-N$B8VLd+U)%O_De7+F@k%{T@%ne7vx#'

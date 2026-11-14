@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/service/sensor/Status.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:54.035623 UTC
+# Generated at:  2026-11-14 09:05:23.165943 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.service.sensor.Status
@@ -180,7 +180,7 @@ class Status_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY84kz$x0{_idU2hyk7PTQH#)d#P5c0C5&`RJ4+#No(i*~g*U&tElShfiu#1_@vHB&{pyINJ%gN-)Q0%Ap0C2geCKCHA4JnZvI'
+        'ABzY8QzZCm0{_idU2hyk7PTQH#)d#P5c0C5&`RJ4+#No(i*~g*U&tElShfiu#1_@vHB&{pyINJ%gN-)Q0%Ap0C2geCKCHA4JnZvI'
         '`yY__Bl{!vEu5;J@r=i|!b=b%+1*ngw{G2g&bfE~a^fG!Q*-g-E;M_EDawQzt|cqw7c47zLUUC$%1Fz-d-5tTWrf#bXRqP@p1=5|'
         'zwMXZNh<4_YcJ;9liOCexotH+xa2WfvkE3IXg)~VLbEc#F+-ViJZqzLvTd1djdu%l$hDEG4(3kX9KGN3y}91}U;UTfEm3BzmRW1L'
         '@t?r<F^=!A^6s(gl9$EAn?+hM%cu=5ic{U7Sai>~Y?!k;F*0duX_KPW%;NN9J7*=s{hkn~d-J`y;D$K!i5Jg~ww^!Ehen5Z$sv4r'

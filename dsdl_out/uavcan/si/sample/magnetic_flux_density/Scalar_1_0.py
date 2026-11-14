@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/si/sample/magnetic_flux_density/Scalar.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:52.906027 UTC
+# Generated at:  2026-11-14 09:05:22.448897 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.si.sample.magnetic_flux_density.Scalar
@@ -151,7 +151,7 @@ class Scalar_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY83@7kv0{^{N-EQ5+5k8XjFI%=E|Hb)Rr>QNqK0JvMDQeoZNffv#wmvZ|Csm84?2=raU6|yuyGuzYK!N5WfmIL)3$s8TA&-zp'
+        'ABzY8QY83l0{^{N-EQ5+5k8XjFI%=E|Hb)Rr>QNqK0JvMDQeoZNffv#wmvZ|Csm84?2=raU6|yuyGuzYK!N5WfmIL)3$s8TA&-zp'
         '2v8Jl?}9!-&?gAc3wMTG9!ZXTnI1s;hP%s|*_oYhmVcV~>wgzI^{;p?8%8FIJ>PIGSu8(fLCifrR7s|cw7e?LY+0R$HrM>_FyqyO'
         'YUQKqkJWN9>8C7#`EJg3Lza3*dWIz#yq&N?%B>9jojBk3Bc6hyp|=&XnCYsR@prj4Ql*vX6w~iJ`9Vd;Xy=paqpFzqnYCI5x#gz%'
         '04zPm$I+^)n7k=@93A>L=SR#k-=f1}ycrae#Z~93l?nH@hG{6YO67+<x(frwg7=k}7PGA<;xt$n=iKW{kMkqbGLcs9f*(uo!CqnW'

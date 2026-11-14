@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/register/Value.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:53.374250 UTC
+# Generated at:  2026-11-14 09:05:22.730684 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.register.Value
@@ -815,7 +815,7 @@ class Value_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.UnionType = _restore_constant_(
-        'ABzY84JYtw0{`t@2Y6gZ)!jFBovM(8D3FjP35il{%O#G|h!RK;OimDKh!QN>-gsqXNl0>#fq+5@3J4HH0nr7ah#CU{L^oY@(@i&B'
+        'ABzY8QY83l0{`t@2Y6gZ)!jFBovM(8D3FjP35il{%O#G|h!RK;OimDKh!QN>-gsqXNl0>#fq+5@3J4HH0nr7ah#CU{L^oY@(@i&B'
         'bkjxq^Ur-{_pP>QC9jH|@#jxZ+I?^4&VBP{ch0@%o&j+uOLz(TH*`w(&Mm!LI#zA$P4~37b+kXNZBs{j)yB<T+q=7Z+xyZZLo2TD'
         'Z13v4ZfAFT<c^WEZXLO0q;5!V>}=a^-#dOs+s&KXI#>0ix3>58rF&N0(AKfTzMkB8bGoP3UN(|R4Cx!f-|rYPo=My`a_h*@;Tzlf'
         '`g+<o?dVJQj@)QlEMZ6XtdSvkWqZ0~OU{PFHg0L_YungIhS^?@ytc1r$L78rJ?T7CGjizup^@D^?c3Y?+HX#;x?+2G-_DVY&a8+G'

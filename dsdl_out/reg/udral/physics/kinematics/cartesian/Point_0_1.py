@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/physics/kinematics/cartesian/Point.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:54.411723 UTC
+# Generated at:  2026-11-14 09:05:23.403102 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.physics.kinematics.cartesian.Point
@@ -115,7 +115,7 @@ class Point_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84kz$x0{`t--ES2|6u<qV-_TON1cVDB6r{Ta1gjt)k~Ab^O9KXZ!Oh&=X=h~b?q+wkxz~h59xz}gaT3OaKY<tGN7Uehh8GhO'
+        'ABzY8QzZCm0{`t--ES2|6u<qV-_TON1cVDB6r{Ta1gjt)k~Ab^O9KXZ!Oh&=X=h~b?q+wkxz~h59xz}gaT3OaKY<tGN7Uehh8GhO'
         '6BFO~6L|N9H$7)}wk_5AMtqP>+TWQyXU;iuX6JYAeA@lxAH%icQM;3NkOiURWh@mm6ra#W$Q;j)n@OAr$&4DlEYsYVdCER$C(PV6'
         '2XC4iW?c1n5p9D0aLN{(JV<HiB)pvoKXa~&h&8E1(Wj|onV^v~7mG+5)#oj;G!t=Tcun<QvGQF*YNX>cbJM6nk4l+}Mh^4LHM3TR'
         'OGZZZObZqU%b5*$0hQE~m@e-uU-BNcC#Q=(B$5dykA!qW7A;8bd?*5Th50g0j~U*}`$-3>VIq9!n&BgM_L$nSMjB~K+eU4g7A+RM'

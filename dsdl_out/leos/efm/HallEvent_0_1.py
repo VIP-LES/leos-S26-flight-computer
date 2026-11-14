@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/leos_cyphal_types/leos/efm/HallEvent.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:49.471145 UTC
+# Generated at:  2026-11-14 09:05:20.202733 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     leos.efm.HallEvent
@@ -155,7 +155,7 @@ class HallEvent_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY82`BJs0{^vC-)j^x5N@%pt@TIiRYf2C30fbzt3LEuS`^FLdRP@fBxE<!OE8<PN%puC1bt8}1QZ(o6#qXbyY+gt_R)pion+?w'
+        'ABzY8P$c+j0{^vC-)j^x5N@%pt@TIiRYf2C30fbzt3LEuS`^FLdRP@fBxE<!OE8<PN%puC1bt8}1QZ(o6#qXbyY+gt_R)pion+?w'
         'c4qR;ewzCEYkH!&{IzPxERzYbU<8%o1I;BQq|jxht#A<hnQdq4!qo;|3@ZqG;qK?~F)aIOqG*Z!^Afa8V5dx;P$?hvLAl^(Ngs?A'
         'S_MAgPrll>_d+(2O@0lZgP$kVIV1Agfemkw?wCYIQNd3?79iO{0;dS0juIEMIu2eLQ3@ye7}0sDtmr9V8_Gcs%;9S0NiH0bpn8sn'
         '>>-jD)H+gX27xd6i`_p&5tgi@Z!@}LMPI`6;FpMXR55DUIMKH{=hObQ6D6R#tVnHxpCU{b!A}HqF0`NL9e#1&x}44OEBq?I)?(+d'

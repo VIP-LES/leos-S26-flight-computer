@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/leos_cyphal_types/leos/aggregate/EFMAggregate.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:49.062444 UTC
+# Generated at:  2026-11-14 09:05:19.987424 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     leos.aggregate.EFMAggregate
@@ -43,28 +43,19 @@ class EFMAggregate_0_1:
     be fragile and prone to mismaintenance.
     """
     def __init__(self,
-                 location:                None | uavcan.primitive.String_1_0 = None,
-                 valid:                   None | bool = None,
-                 avg_sample:              None | int | float | _np_.float32 = None,
-                 min_sample:              None | int | float | _np_.float32 = None,
-                 max_sample:              None | int | float | _np_.float32 = None,
-                 hall_events_in_interval: None | int | _np_.uint32 = None) -> None:
+                 location:        None | uavcan.primitive.String_1_0 = None,
+                 valid:           None | bool = None,
+                 motor_frequency: None | int | float | _np_.float32 = None) -> None:
         """
         leos.aggregate.EFMAggregate.0.1
         Raises ValueError if any of the primitive values are outside the permitted range, regardless of the cast mode.
-        :param location:                uavcan.primitive.String.1.0 location
-        :param valid:                   saturated bool valid
-        :param avg_sample:              saturated float32 avg_sample
-        :param min_sample:              saturated float32 min_sample
-        :param max_sample:              saturated float32 max_sample
-        :param hall_events_in_interval: saturated uint32 hall_events_in_interval
+        :param location:        uavcan.primitive.String.1.0 location
+        :param valid:           saturated bool valid
+        :param motor_frequency: saturated float32 motor_frequency
         """
-        self._location:                uavcan.primitive.String_1_0
-        self._valid:                   bool
-        self._avg_sample:              float
-        self._min_sample:              float
-        self._max_sample:              float
-        self._hall_events_in_interval: int
+        self._location:        uavcan.primitive.String_1_0
+        self._valid:           bool
+        self._motor_frequency: float
 
         if location is None:
             self.location = uavcan.primitive.String_1_0()
@@ -76,13 +67,7 @@ class EFMAggregate_0_1:
 
         self.valid = valid if valid is not None else False
 
-        self.avg_sample = avg_sample if avg_sample is not None else 0.0  # type: ignore
-
-        self.min_sample = min_sample if min_sample is not None else 0.0  # type: ignore
-
-        self.max_sample = max_sample if max_sample is not None else 0.0  # type: ignore
-
-        self.hall_events_in_interval = hall_events_in_interval if hall_events_in_interval is not None else 0  # type: ignore
+        self.motor_frequency = motor_frequency if motor_frequency is not None else 0.0  # type: ignore
 
     @property
     def location(self) -> uavcan.primitive.String_1_0:
@@ -112,75 +97,22 @@ class EFMAggregate_0_1:
         self._valid = bool(x)  # Cast to bool implements saturation
 
     @property
-    def avg_sample(self) -> float:
+    def motor_frequency(self) -> float:
         """
-        saturated float32 avg_sample
+        saturated float32 motor_frequency
         The setter raises ValueError if the supplied value exceeds the valid range or otherwise inapplicable.
         """
-        return self._avg_sample
+        return self._motor_frequency
 
-    @avg_sample.setter
-    def avg_sample(self, x: int | float | _np_.float32) -> None:
+    @motor_frequency.setter
+    def motor_frequency(self, x: int | float | _np_.float32) -> None:
         """Raises ValueError if the value is finite and outside of the permitted range, regardless of the cast mode."""
         x = float(x)
         in_range = -340282346638528859811704183484516925440.0 <= x <= 340282346638528859811704183484516925440.0
         if in_range or not _np_.isfinite(x):
-            self._avg_sample = x
+            self._motor_frequency = x
         else:
-            raise ValueError(f'avg_sample: value {x} is not in [-340282346638528859811704183484516925440, 340282346638528859811704183484516925440]')
-
-    @property
-    def min_sample(self) -> float:
-        """
-        saturated float32 min_sample
-        The setter raises ValueError if the supplied value exceeds the valid range or otherwise inapplicable.
-        """
-        return self._min_sample
-
-    @min_sample.setter
-    def min_sample(self, x: int | float | _np_.float32) -> None:
-        """Raises ValueError if the value is finite and outside of the permitted range, regardless of the cast mode."""
-        x = float(x)
-        in_range = -340282346638528859811704183484516925440.0 <= x <= 340282346638528859811704183484516925440.0
-        if in_range or not _np_.isfinite(x):
-            self._min_sample = x
-        else:
-            raise ValueError(f'min_sample: value {x} is not in [-340282346638528859811704183484516925440, 340282346638528859811704183484516925440]')
-
-    @property
-    def max_sample(self) -> float:
-        """
-        saturated float32 max_sample
-        The setter raises ValueError if the supplied value exceeds the valid range or otherwise inapplicable.
-        """
-        return self._max_sample
-
-    @max_sample.setter
-    def max_sample(self, x: int | float | _np_.float32) -> None:
-        """Raises ValueError if the value is finite and outside of the permitted range, regardless of the cast mode."""
-        x = float(x)
-        in_range = -340282346638528859811704183484516925440.0 <= x <= 340282346638528859811704183484516925440.0
-        if in_range or not _np_.isfinite(x):
-            self._max_sample = x
-        else:
-            raise ValueError(f'max_sample: value {x} is not in [-340282346638528859811704183484516925440, 340282346638528859811704183484516925440]')
-
-    @property
-    def hall_events_in_interval(self) -> int:
-        """
-        saturated uint32 hall_events_in_interval
-        The setter raises ValueError if the supplied value exceeds the valid range or otherwise inapplicable.
-        """
-        return self._hall_events_in_interval
-
-    @hall_events_in_interval.setter
-    def hall_events_in_interval(self, x: int | _np_.uint32) -> None:
-        """Raises ValueError if the value is outside of the permitted range, regardless of the cast mode."""
-        x = int(x)
-        if 0 <= x <= 4294967295:
-            self._hall_events_in_interval = x
-        else:
-            raise ValueError(f'hall_events_in_interval: value {x} is not in [0, 4294967295]')
+            raise ValueError(f'motor_frequency: value {x} is not in [-340282346638528859811704183484516925440, 340282346638528859811704183484516925440]')
 
     # noinspection PyProtectedMember
     def _serialize_(self, _ser_: _Serializer_) -> None:
@@ -190,36 +122,17 @@ class EFMAggregate_0_1:
         self.location._serialize_(_ser_)
         assert _ser_.current_bit_length % 8 == 0, 'Nested object alignment error'
         _ser_.add_unaligned_bit(self.valid)
-        if _np_.isfinite(self.avg_sample):
-            if self.avg_sample > 340282346638528859811704183484516925440.0:
+        if _np_.isfinite(self.motor_frequency):
+            if self.motor_frequency > 340282346638528859811704183484516925440.0:
                 _ser_.add_unaligned_f32(340282346638528859811704183484516925440.0)
-            elif self.avg_sample < -340282346638528859811704183484516925440.0:
+            elif self.motor_frequency < -340282346638528859811704183484516925440.0:
                 _ser_.add_unaligned_f32(-340282346638528859811704183484516925440.0)
             else:
-                _ser_.add_unaligned_f32(self.avg_sample)
+                _ser_.add_unaligned_f32(self.motor_frequency)
         else:
-            _ser_.add_unaligned_f32(self.avg_sample)
-        if _np_.isfinite(self.min_sample):
-            if self.min_sample > 340282346638528859811704183484516925440.0:
-                _ser_.add_unaligned_f32(340282346638528859811704183484516925440.0)
-            elif self.min_sample < -340282346638528859811704183484516925440.0:
-                _ser_.add_unaligned_f32(-340282346638528859811704183484516925440.0)
-            else:
-                _ser_.add_unaligned_f32(self.min_sample)
-        else:
-            _ser_.add_unaligned_f32(self.min_sample)
-        if _np_.isfinite(self.max_sample):
-            if self.max_sample > 340282346638528859811704183484516925440.0:
-                _ser_.add_unaligned_f32(340282346638528859811704183484516925440.0)
-            elif self.max_sample < -340282346638528859811704183484516925440.0:
-                _ser_.add_unaligned_f32(-340282346638528859811704183484516925440.0)
-            else:
-                _ser_.add_unaligned_f32(self.max_sample)
-        else:
-            _ser_.add_unaligned_f32(self.max_sample)
-        _ser_.add_unaligned_unsigned(max(min(self.hall_events_in_interval, 4294967295), 0), 32)
+            _ser_.add_unaligned_f32(self.motor_frequency)
         _ser_.pad_to_alignment(8)
-        assert 152 <= (_ser_.current_bit_length - _base_offset_) <= 2200, \
+        assert 56 <= (_ser_.current_bit_length - _base_offset_) <= 2104, \
             'Bad serialization of leos.aggregate.EFMAggregate.0.1'
 
     # noinspection PyProtectedMember
@@ -233,23 +146,14 @@ class EFMAggregate_0_1:
         assert _des_.consumed_bit_length % 8 == 0, 'Nested object alignment error'
         # Temporary _f1_ holds the value of "valid"
         _f1_ = _des_.fetch_unaligned_bit()
-        # Temporary _f2_ holds the value of "avg_sample"
+        # Temporary _f2_ holds the value of "motor_frequency"
         _f2_ = _des_.fetch_unaligned_f32()
-        # Temporary _f3_ holds the value of "min_sample"
-        _f3_ = _des_.fetch_unaligned_f32()
-        # Temporary _f4_ holds the value of "max_sample"
-        _f4_ = _des_.fetch_unaligned_f32()
-        # Temporary _f5_ holds the value of "hall_events_in_interval"
-        _f5_ = _des_.fetch_unaligned_unsigned(32)
         self = EFMAggregate_0_1(
             location=_f0_,
             valid=_f1_,
-            avg_sample=_f2_,
-            min_sample=_f3_,
-            max_sample=_f4_,
-            hall_events_in_interval=_f5_)
+            motor_frequency=_f2_)
         _des_.pad_to_alignment(8)
-        assert 152 <= (_des_.consumed_bit_length - _base_offset_) <= 2200, \
+        assert 56 <= (_des_.consumed_bit_length - _base_offset_) <= 2104, \
             'Bad deserialization of leos.aggregate.EFMAggregate.0.1'
         assert isinstance(self, EFMAggregate_0_1)
         return self
@@ -258,52 +162,47 @@ class EFMAggregate_0_1:
         _o_0_ = ', '.join([
             'location=%s' % self.location,
             'valid=%s' % self.valid,
-            'avg_sample=%s' % self.avg_sample,
-            'min_sample=%s' % self.min_sample,
-            'max_sample=%s' % self.max_sample,
-            'hall_events_in_interval=%s' % self.hall_events_in_interval,
+            'motor_frequency=%s' % self.motor_frequency,
         ])
         return f'leos.aggregate.EFMAggregate.0.1({_o_0_})'
 
-    _EXTENT_BYTES_ = 275
+    _EXTENT_BYTES_ = 263
 
     # The big, scary blog of opaque data below contains a serialized PyDSDL object with the metadata of the
     # DSDL type this class is generated from. It is needed for reflection and runtime introspection.
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY82`BJs0{`t=OKcnG5$3*W`9;M}q{K<QaU7d*EK*LKM0r+85JSb}a}_&D)kCmak!$TbE0W<Z1*t^<<<LS77U%}q0s?Z;QAZth'
-        ')KNzrb*oymg?cEeLk~uQBAuV49@N8c*+?QCe(wG=^UdQQF7=T!q5i3OE>-`FPFBW?LDA1yfm8Kt-}|jS<U2X5P#&q2121%v=<wCB'
-        'S}TOLs`JTs#Yw(PUi>=wD#=EgRkBA|e!_RkLCzi?t~$eZ=;S`Ug!k5Nk|=GBI@Q1{ml8J>8J{(;ze^}Z(jStqljxvjhhfzls)bIF'
-        'e9pMLM6|AzMA{|K@rxUgv{^+vw5?Et=gN&uSBpAo_GrN_<tkNg#0$MqC&!t1rQyUi+yf+0O89pVeV(|Prp>YF#4gUOReL;%IzF>`'
-        'mv=sLO2eW1p4e?I%3;g#oe`%LHlo=rne~v8=-8*Fz#A?(#b1^}XV|H>;vKYxywLLN?h;CKss%d;t&wt(Q#}<u(Z2>H%yJ*F3_>L8'
-        '`}^cd5*@dK&@L72YH>5rWNj!qz(^Il;DzG}Qd0C-Q)XQgwQbh&bh9pJDdT3{b0i5&w@a9-){q}0(V4aUHqbfMaO-^%9eUpj8&$i?'
-        'x6S+_#VS{l$lMJi7#|rb`(A;o1ZSko)eE_MepPX*c37@%R7tlAuE!nWz7;+GLAg}m&MWPxDzX-uRi`9+jrEUSuKB)Q9p9#@TcfsL'
-        'bCN$MS<1x0ko!)v7`<%Oam6kTJ6D{F6MDOa^o2EIkBQo{MPGf_B>|RZuzCSUyb>RixTx!;BSV~P&9?;rNkTUjliYk&>aX0ka!hJ-'
-        'Pg~z3h18hz#=R`AjTRYcq{ozQ+8x*?BZK3jwsm{n;roL->d^sei|J59mKMGa@2W=!=}=5ZT5x%n_m1Auh7Qw_m@-WtF}2@Tn~w4^'
-        '(PP^@v4r=J-H|=D(_=9mZ|JHlKO}4)zhhfEM#p1%V#gR*%Ce5T!lK9NiI_UqD$TJxdDr&TL7g!@wQEeQ!SWOLgiBA-Q!zc=QZJS='
-        '-ZS@%M<?j%n4Z05ysX7KC-2J#JwwmNWUkj%ME%@-BhpDSV>;EqF>e*W@c#S*@kh_mshCc$`P_64qDn73Fdy_hosQ|uZBK?ROx9-I'
-        'vk%lay+CJT%C6<vJhK-cxDPr@*_h7Vah`0!`Y-KC9P}cci|PEv*`8+1?B?_B+B3iO5}l7JcUN^_E4In+X-w2bxtO{)`XJlrgbRD_'
-        'mGaab)5~{V5w>KzR~|}ybb(%u>EiZ|InUVLYhCl|LyLu8p^GuSc26~9Yqov;p~gzD(rYpGw02jw=&v^(dK~mR^~Ch%J=cyA*#50Y'
-        '5;wg;Z^rcY?tOTXee{T4eCLtHM{m*FF}-_V^<@;s_{Ag5f!?8aW9r@3vwZqBri{*5#V*x(cU=Q187UPhojC`kk(QBGaZ^KDrwlSO'
-        'GAc4Ub)r*7r;1J;Hw`jj$}m-!I%ScSkyVk^sT<ugx>a=R)Po)wJt}&1>P4@NUKPDM^`TEjpNc-6`q3|=Uq!!80~nAopkhF$K@7?m'
-        'R57TN3s;7#!qusQij0biicVt~lQE`ZOs5G<$e2(uq0=NLWlXA=)G0<RBUTaXG=(V{Q!1u(n#Qz@X%*8t&0t2xjEWhZW-%*cR>iDN'
-        'bC{Dcr(#a0dCbe0S23^C0v2Q}s94Zx5sNYwRV?bXge4hEDwcFw#<GlM70WuUU`57?iWQw!u_|L##i~v>aZ|=kt|wPlLP|kOL&`u}'
-        'LRvwZi)<hxA)_FpA!DFZLZ^aG4V?x|38n&5gJ~cuA*&#(A#0#pLbrl$4c!KMB=jig(a>X{S3<9XUJbnl`Xuxz=+n?=pkG42f_@GC'
-        '1_mSyC>YQ%U|>+fpn^dSg9cm)t^!wsYoH>bqM)LoVqi?dn1V44V+JN9OemPpFkxU)!lZ&p4U-0939*7$Lu_D5!jyt34O0fDB}^-r'
-        ')-Y{gM#7AO84WWAW+lujnAI?AU{1oEf;kOy2IeKqE11_XZ(u>ff`SDN3kDV?EGk&kuxMaO!jgiU3YIi18CaIEtYBHgvVj!|D+*RL'
-        'tQc68u&Q8H!>WOsQd}Eyn6UqvGVTB}Y4<lj8a|yCJZhg$KLkFVY1Cn#PwxSr=KsbU)qS9R+PvLo^d9hOv-KQ)vV7Xy_zvV}!>2{g'
-        'rx`ihdcHqvJ}qjJUF(E>KD~ucw|2}vpT1i@-FV7mS(e%7)Azxr8=p%1eEMPV>5V61lTW+f^Y&&6&Ab`u^cshjn;cqa;vtx{AklR)'
-        'tv*T`&Geahv>?;!&NN!k=O&Zhr_n!E8r|T~Os4OcMvGsnT`kfYKZQrCRV){hD3#QP?C990!3}F@yfF>(RpS2HeJY3!T1BT)b;K|6'
-        '#pFhG#Jc8<IYp~du7;LZOfE<5R#2{03l0l>$Ew(&n?y&%i|-BPEWcc^{UkcjUk<#nej)rWiGG)N%Og%cut)NNYge6Oe%K51qh6)U'
-        'cY?f_Lg~8t@@rk!d~etdyTk+whgQuyW4xAZKVPX0`Ch@QI>R+z#I-Rs6671BBKh^XjC^BMBzGa#ofESONqw5)nC0352U`^b9)VLG'
-        '^$JdM!(EQPdC&axlS@5aPN`5XIz=<6Tbt!;X2|YyZCAZg!7)SES(A8ySrr8e7>V`mz_iWcIG4~XnDt>3VLLR=r9E$Yp-?ZCL$g%#'
-        '{VvXC#4Cvea^^?g7mnF)2VAWtaxRH7^`mHv@RS(8F;=5DQskm;8a~mR6ERNIQ9lDKEL+ubIjkcD6`Rv@{~6hPUif->-HYz)jX8-o'
-        'TZS!;_S?lGN4agtf~D_9X%4(DPAFY#{nBUc`<cM~{_=V+r$ujt^?{^i_b<G)KK$dJiVnVCF8hvMY8k?D&ywV3-SckOjrDf}_wWwp'
-        '2QK+#JKSn)HjF2uHfzKlE_q?C$fZAUt!fuU96=JLFEy{(?3?z~=D#0)_@O>2btS3$ZnH;+Ek1~f?`#X;`VlFW+UE6oJMUgU&dY6('
-        'xvBOF*&f>sdDDo|8f@LB!?k_iaz;h_S{#_iZ<8w5y$RsBe`TZV3j223ueXUfRIzl3<)B!e6-%dBUJ%Pkv78gj8D47c-)^{nzwG{l'
-        'o4a<O%`G&n!gz%PZnm`8$*<4D<u}j6@zdnO#`DDe*A0=5`)~37RD~J0g}pI5cc^8Q&T;?4;eNU&;ojo?_rLY4jlK69Y9ERbsvooF'
-        'f3K&w8%Wyn+^9b;T4uJSIB0&Q+|F9<8(NzIwuo8)%yobZtaV{$fGwh306u1|k9P*xBH9JuOV;{wXMioDT>!pit#7viG#<WFESlO7'
-        'iDz!^{}lMDWp63~00'
+        'ABzY8P$c+j0{`t=OKcqV8Q*!Y<2=@cU_*cmA&>>)T?Yb~XAOwR)yFTj5}@t@jmNta|0nFLJF}793dtN=IcTJg#8k4x#YZ1~^wCEj'
+        'ee|tv)mHAIst-Lxl`8uEch`?i;*ggU73{-2{@?Te`@Y%rZ}ywk|9C8$YW_thYE#9aSjstpSNGkL{~LF_<mH?~wOp$Pe&{99p-W-C'
+        'Q3xA#@6)N8mwcPN^mX!8l8p?f;+9!{yyR7boI5d5_a@xX%YA$vA8g(vQQEoc)dRm;Nkl5LK5t)tn^20B-zQ%uQMcoUVcj2ZgkF$*'
+        '!G3qiXiF=JjPt%%DsE?Tz$v<+>x42rp|%!<5%o6Qs|B}`tJVFoANp6l9Ph-hOeDe*U8GP-#uo>_NJOS>b2K`>OYnN#ol2tK&s|>S'
+        'l~26NL?}LxtDT@6a=emP_9|g3o830El~NKN{j3uB6BV!c^GfJVc=b+y-OjilI;Cc~gwnj#f*XWRxmx6{o{XLt*>oh$av!k_QY7*H'
+        'U2-vr9(RJ!trXpQai^o1#(31lo@#Ev52q5Ol<2Xx%(*PFZDV<=jmv4uh^%;-6zNm+OLN^BF9k{T;^zLgz4KPX8}F0o;D>(LLhTaY'
+        'w)YolPPLXq_HIsssq%QW<QEtvc;zai7jpOfqUP1zuv*_n$#e?B=Z+BXM8`g=RtnsCm0POHT}#cnSCPHO`bRD_N+q{Gb(5y)Ty;wg'
+        'FZn}~rA!=*i}%`K46#-3MYl5HUG!>R=<k-&mrmK8l-RPxaC23Vbe3jkO#sV&h07!_ntJKTl67sAT<L%mshf&PZJ)K~ncG&4NpG(i'
+        'TWh3|9+TO+SLL<UAtQs#n9^;#uA5|Jab9#_%br*GzWbJX)I|qkI@pq>WvoNH>QOfxjOlQPUtZ<4Be%7oLv%Q%OglzQJwK>TN4QM%'
+        '*iDgG!s|!x$ew!Wv6voj>FO*$C~c43u`L~?$76cpmN~GLWxaRhi;mF~G4*XC&AB{z*Y?y)eK9??Yfh}e^5gg9m!71jVtTp*FP5^u'
+        'XYSb_9jB*bdiJ*YvKH%{xUU%W3_Tl@y@jpJ`nmh|NGHgS>14}~eY^Z+^yeQ)JbI2!#&l{k=8if@lwNpXG3a?Z71N79SQ)mkS(|lF'
+        'KhW6p0=*bhc5|QYn!WVEW6){J#`N+X?~^T9|CK$-gI=PSV>+{4+f(c_yR*Lidlr{op))b%?g|ICVw?P)=0yFJi)moH53;RJIJ@Uj'
+        'DNh42y?WP(uqE5Q_E7Spv-E0A=WgzpGwgd{vuj>|Xt~g9bS|bh?g=xtX4^L(YOeG;y%E!3XLk+A{(9@7=Rt4MU`%h{Gj{BO?caGM'
+        'dDC0;c1-W?-iPNn#-QxQ_a0e(^bWln)BE>@FMDAhKYOHmp!ewgn1*iZS+0JADWf-8b1O~W-PAxzMM_7?WX?fpq*bJKTsM$5DT9oP'
+        'jE;;+edtrsr=!orb&G7+Dr_CLNm*o7WOZas8o+>x0UZM-4PsEmppHS4hA^aJNXL*#!x&aEtYg@u5sau9(J^AuC`MI`>KHX?3}Y(B'
+        'bc~rKAXEq)!lW8%Dr!1vCQV{e#iWi&lcq7PVp_+vNi&#HF{5L~q!_V^SVwHqEM`^A>X<cY4s$Bzbj+DFk9igII_6DUz=Dbe9SbHc'
+        'Vo}ASjzyD}u%u#1$C63QSXQyDW7(t?tf*Mgv0~CHR#mL(ST$)4Ybw@steLcqbrtJ6)=k>LhKdax8zx=HbrshcPexZkN<+#(%0gN}'
+        'T0@#awvbVf(U38avCyZWPeY%9J`1)2TZ3)Dwvbhj)sQuiwJ@MyK*NB60Ski)1~m*C7_=~?U`WG|fguaS3WhZd8yL1QqF_YBh=CCc'
+        'qY6efj2alVFs5Kk!<d0F3qpa=APfi#H3c;dH3KyZlL{s^Od6Q9Fs)!(!?b~E3o{C4G|U*7u@EbWHN*yD3$qGlHOv~AwJ@h(PQ#pm'
+        'ISca&<~7V4n76Q?U_rxzfdvbT3Klgi8d$Wjq+m(Il7S@)%L<k?EE`z1u%ci^!-|0w3#$rNHC)%QYGBpEnu0YAYX;UVtSea8ux?=8'
+        '!iItk4I2hFEL>OO#<<6X{g;#xqsXMiul{fNbXxMLeLnpV_;jX)!#<zh13u0FjknN!pnTf?q3`HD;L~<z9e%WY+TMN#@{{4ya?hvO'
+        'bGEa-KWRQKG0ARr!akqAflqgK%s!vKTRz?Tl*zIzv(KmRgHN}<mG=4c!{F1~pNMTfExzOBofMjRGt%iz4z0F1w8_LnGHFSon`Byl'
+        'lr);@GxKOkruAFXXi1;jOnRS2|5#~si$gP+zGE6Kf2kHmWVC(?k94P4EhJGYX^gwk(H(;u&iGVo8sw`){7F0&MBPr&tJOXEOMEf8'
+        '79Dmj`;%VLsa5Nt;}??)QI8W;8})+6f|BRd+)yOZVR<U~<2k2PEx4s5>KdsA{^W=hew#$U&5LT;%Li^b9|*VZ74s8*n7``R`b%Dr'
+        'ms2SHmtK9N|8mKn5MjTZVBys2d2f=B6}ObHHO5PR!Kr%_jgri3duk-ew?;+sTXPxt)~HDCY;GVYXA_d<G{sRzxB(|ymjfPwSHJ2P'
+        'yyTi#i@y25{_NB9gZ*BmP%U~zJ7`+l)ysCs;d2Kr`IUlahr-*G_<>!Q00r!c_1(aB?cx+e=ojqfu!*!CpJHgw*nTM0E7j1hG)kp@'
+        '-c8xB$PMJ|Py8=Ed&CVGt+wY}5@njDXpQhx*nexR#%yhoLESNYVzwt@yr{QX11GFH^=dV2dI)MRZ%_Oqa`zngCcNUDc(XMp@pi|s'
+        '#gP%WSmZ2k8nR&N`%#(`Z;BI2H#%SXY`&if#CI3AdO0n7D{KxVt%*PL($?^gI2m<+Sgn>kx6(0$BTkbdvf_;Bzqa)>a1Y<Yyz6|a'
+        '>V`KO+b!dn=zvppCn|o}C^Gb2m+Njp<`E=O`h5GE&A#bL?fm=x`|q2RQWukE>?7qWBj8-Fd%tdQvrV<L@Wfv@))h@jr9{t_1AMxo'
+        '%R{d`bn~Gh{(4RP?Sl9_m$Px7<&+vuVX7wFQoD$9CBHQRmftx6#?Q~$?I%e5^O{Up{7ZJEF3lJScY9jwV8`&7C;rXpezqs+-lpUJ'
+        'yLGj__F+ryV>vW*f13ZflHz)hazn2+TeM?NNQr~?Ys?<j>e<%X>EH%YhXZ@d!CBTid!vKa(=y1S!EKRzNOJ!J1>;YOASeI;'
     )
     assert isinstance(_MODEL_, _pydsdl_.StructureType)

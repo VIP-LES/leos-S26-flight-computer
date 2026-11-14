@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/service/battery/Error.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:54.245286 UTC
+# Generated at:  2026-11-14 09:05:23.307940 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.service.battery.Error
@@ -119,7 +119,7 @@ class Error_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84kz$x0{^vFU2hvj6b;bQ)TJ#|D-cM~0Rd`6vkNWsfo~^qOGsizwiA^HI-1?R_KZ5av&_u8F$e)dAS$f{QWuE_{s2FN7k(Fa'
+        'ABzY8QzZCm0{^vFU2hvj6b;bQ)TJ#|D-cM~0Rd`6vkNWsfo~^qOGsizwiA^HI-1?R_KZ5av&_u8F$e)dAS$f{QWuE_{s2FN7k(Fa'
         'W^LCoRNx2llJ(BaopaCqI{VFuU%o!O;{VFa`8Y9&45$Gum=s^INJ2nkmFCI_3srfxXLS+VLPLL?L-n9q`?mV3x>BB`8B1~fvW8($'
         'B$~+pZHz<=LBy;DJq}u0D_xbVbOhQ6l~sJDJassEeo*bK>^$~E^=(z2p?E-xsIXwF&(QWGP|bE#<;j}@WbzPAgC@)}Y8}K!9nZB$'
         'g%u;*aq%ECVwgd)omm)yKJMBX8VO4!WJAlVomDg*Gh=D05~%p4@|pdqA$Kg;#I-%Q<UIPm>Q?0?YAnkVrjvO?KNb-`S)Lp*Ss;QF'

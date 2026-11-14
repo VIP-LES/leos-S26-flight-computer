@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/leos_cyphal_types/leos/sensors/1211.PMSA003I.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:49.403369 UTC
+# Generated at:  2026-11-14 09:05:20.160920 UTC
 # Is deprecated: no
 # Fixed port ID: 1211
 # Full name:     leos.sensors.PMSA003I
@@ -435,7 +435,7 @@ class PMSA003I_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY82`BJs0{`t>O>7(25$66=mVfB@Px<vGabh~L_#?-OlGustG^x_bq;wnyIy7Ca$hF=&)RN{d4XH%{<<LSd7RUzK0y^rbqjD3_'
+        'ABzY8P$c+j0{`t>O>7(25$66=mVfB@Px<vGabh~L_#?-OlGustG^x_bq;wnyIy7Ca$hF=&)RN{d4XH%{<<LSd7RUzK0y^rbqjD3_'
         'i;g-fHyw3oTD1iVrRc#uwez?XB~oN!$(Efa@?l86nfYekyvO(U6UUSCA7j~A?Vo?LJW+59#gyS%727P@zcELOR?5hi#>yqv_N>r9'
         '@H4AukI~!0hZAKh{4zZAS@>y~^i{)l9IFztn1A4^SE=T`YQ<_cQ4Gf%BZy-~tK_C!%W+E;H<iPymok}i?}mQdxMfvbyX0^X?W6kp'
         'FGGld@cZzy(C;=(&#TxYRnKz6j|s6ux(%z)SKhI$VqqhPeMZ6bOvB@eF)bQo`}`AC^H$z;QsoMtn|;el(Hv}NG-UhPK@cFu<Fmsb'

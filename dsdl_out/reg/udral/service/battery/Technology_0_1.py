@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/reg/udral/service/battery/Technology.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:54.277368 UTC
+# Generated at:  2026-11-14 09:05:23.328139 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     reg.udral.service.battery.Technology
@@ -131,7 +131,7 @@ class Technology_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY84kz$x0{^vGPi!1l8Fy(MZ)`UZVp4%b^XjH3QL?jOqDs(9?Tt->*Sjm*t)fWu>CMdB{hsq?-tgWV;|U<OAgUIPM5GKC4xBh}'
+        'ABzY8QzZCm0{^vGPi!1l8Fy(MZ)`UZVp4%b^XjH3QL?jOqDs(9?Tt->*Sjm*t)fWu>CMdB{hsq?-tgWV;|U<OAgUIPM5GKC4xBh}'
         '>VXpnP8<*i4xBh};?PqMoH%f*`n}m%uQQGdgTx+YXJ_8``+nb__vg3oocrbI(p>q;uO?Y&Lg`V%wO~>_V!q@a4OEmUBP=iS7xt`9'
         '1Dk5TpC!C_QrvjA_;GPPpQka4@clK-$6gw0COyPB6an{qW-Zs5x6cEJl~m)b$XoP~Ya>)#z+ArYR(1cR*q+;d?!DsOB446trG=kb'
         'Zi?@rgEOcdk1F!{Ex~0tqqImvW*N1P=UL{77Ll;x5Jy~oGd5xz^YC75`Izgc<6EM>uvGGRY@yh0A$Y)yrI8AG0W0~H;S|W3d0l+B'

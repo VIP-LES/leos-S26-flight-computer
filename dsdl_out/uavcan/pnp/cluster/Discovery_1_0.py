@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/pnp/cluster/8164.Discovery.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:53.433376 UTC
+# Generated at:  2026-11-14 09:05:22.770974 UTC
 # Is deprecated: no
 # Fixed port ID: 8164
 # Full name:     uavcan.pnp.cluster.Discovery
@@ -184,7 +184,7 @@ class Discovery_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.DelimitedType = _restore_constant_(
-        'ABzY84JYtw0{_ifTW{RP6<%q*(rR_FEZLH5$r62&*B9;DZsN#p+Ssw|SQuXf*>Q~qF3VlcYAAC_hQrk*MbQRm5*sB@p=N;mg#3g6'
+        'ABzY8QY83l0{_ifTW{RP6<%q*(rR_FEZLH5$r62&*B9;DZsN#p+Ssw|SQuXf*>Q~qF3VlcYAAC_hQrk*MbQRm5*sB@p=N;mg#3g6'
         'eduf6^AZ#&P@sJXP@vCw>^U=s%UxRvP!ukzhy8|!Gs83AIrEWo^xJ)(|7kj>{^Ge{+m^OlF(nTj%XL1oYA&ysb-x+-(usHy4=-`o'
         'X+qO}xE=81MRMlj<kv|#?lT?F<6$Cl@$iEvY}KPy$h*4~OwVe<6f-Srqi%VXzzZsMw<RMUR+b!D_cwUBoy0{GP&&ScbM-%>_KSq|'
         'u-vD~$4NYBT2T}_wN}Js@&qQ{!|QghBre=?xNB#wluX--EHgs?_8K09xK3vSdW^sCNoURD_Oci8H6C`aYtXDYk?C@8EfNXK!{l{K'

@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/primitive/array/Integer64.1.0.dsdl
 #
-# Generated at:  2026-11-08 07:38:52.555416 UTC
+# Generated at:  2026-11-14 09:05:22.258754 UTC
 # Is deprecated: no
 # Fixed port ID: None
 # Full name:     uavcan.primitive.array.Integer64
@@ -137,7 +137,7 @@ class Integer64_1_0:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.StructureType = _restore_constant_(
-        'ABzY83@7kv0{`t<TW=f373Q5QOSUA-vV4shUunl8B}JAMCvDjTEfk!L>soEzip7!~YZqN|iQT0j6$qdJZJ_`IbODe5j~?|G+C27;'
+        'ABzY8QY83l0{`t<TW=f373Q5QOSUA-vV4shUunl8B}JAMCvDjTEfk!L>soEzip7!~YZqN|iQT0j6$qdJZJ_`IbODe5j~?|G+C27;'
         '^vuo<cb60`>*9w35eSi-Gw1T1b7uI>&R*f&#?4Il$L{oY+g{tQ=^k}0!?ylrG;LbbTTZ9vc$QB&ySVAQ{g&T%>7RCcl)vSVf8;;#'
         'Dl6(;ql5BF-`H*$-CEDJI+ky3)0*MB#%}G~u1~k9ySB=irf*Z%vz#tBGpzi5^!Y7^EM)%4f8=aZH+<i<nth*o{4ac5RD(&J6@PD0'
         'yB$Y!L2nzrq5C34c5{rnh>Np@?+qNqk?&}C%Qt^3M$^zP>eQwk+VvxQW5O9A=4^J;+UnAFggI?(Qg2$mZimh|G%(bb;rV*UX;W_A'

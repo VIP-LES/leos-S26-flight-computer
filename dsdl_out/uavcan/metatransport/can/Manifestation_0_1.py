@@ -3,7 +3,7 @@
 # Source file:
 # /home/sam/shared/git/vip-les/leos-S26-flight-computer/external/public_regulated_data_types/uavcan/metatransport/can/Manifestation.0.1.dsdl
 #
-# Generated at:  2026-11-08 07:38:53.252062 UTC
+# Generated at:  2026-11-14 09:05:22.656001 UTC
 # Is deprecated: yes
 # Fixed port ID: None
 # Full name:     uavcan.metatransport.can.Manifestation
@@ -245,7 +245,7 @@ class Manifestation_0_1:
     # Eventually we should replace this with ad-hoc constants such that no blob is needed and the generated code
     # is not dependent on PyDSDL.
     _MODEL_: _pydsdl_.UnionType = _restore_constant_(
-        'ABzY84JYtw0{`t@TWlQ3TAmr-#_2e5lFi0vvz_#2bLre{C!1`%ckfkR6|;oBVIGbqZM)+hpYe>D83zXmDF<|r_h<wbJ4k+v#ETzz'
+        'ABzY8QY83l0{`t@TWlQ3TAmr-#_2e5lFi0vvz_#2bLre{C!1`%ckfkR6|;oBVIGbqZM)+hpYe>D83zXmDF<|r_h<wbJ4k+v#ETzz'
         'Si!?F7r{#CNEYz0(gBWz5G+DSenIR5NS2U*`m6rx+jRBxjAwjFdZkUZ>-u#~|Cjoz`tL{GzyE{(PO$%~XBQsMlxOn8*|J&68Ts6='
         '8&i36I6GaOUnrJy6|+|D|E!QJ7CwErVAj5@UH)P1H)?vdCtEP)Y1zd^<H5917@jvPMx|sF$_vF(Wf*cYMj?0KEYob-xK>SPADE>w'
         'Tv~~0-{*M!WsM|A^0#Y0tW}k)QK^)2Q;QX|T>Cy9LITXLRjc-VkTdf$4yZ%f8KYukD}a=aGVn>Iv^ZT^ESVncR!{Ye6!rV1Qn6IC'
